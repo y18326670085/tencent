@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0; padding: 0;}
+        #head{
+            width: 100%;
+            position: absolute;
+            height:30px;
+            background-color: wheat;
+            -webkit-transition: height 2s;
+            color: white;
+        }
+        #head:hover{
+            height:300px;
+            color: black;
+            background-color: white;
+        }
+        #head>h3{
+            float: left;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #head>ul{
+            float: left;
+            width: 60%;
+            margin-left: 50px;
+        }
+        #head>#lang>a{
+            text-decoration: none;
+            color: white;
+        }
+        #head:hover>#lang>a{
+            color: black;
+        }
+        #head>ul>li{
+            list-style: none;
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+        #head>ul>li:hover ul{
+            display: block;
+        }
+        #head>ul>li>ul{
+            margin-top: 20px;
+            display: none;
+        }
+        #head>ul>li>ul>li{
+            list-style: none;
+            height: 40px;
+        }
+        #head>ul>li>ul>li>a{
+            text-decoration: none;
+        }
+        #head:hover>ul>li>ul>li>a{
+            color: black;
+        }
+        #head>#lang{
+            float:right;
+        }
+        #videoShow video{
+            width: 100%;
+            height:600px;
+            object-fit: fill;
+            position: relative;top: 0;left: 0;
+            z-index: -99;
+        }
+        #container1{
+            width: 100%;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+        #container2{
+            width: 100%;
+            height: 300px;
+            background-color: palegoldenrod;
+            padding-top: 50px;
+        }
+        #container2>#img_left{
+            width: 25%;
+            height: 80%;
+            background-color: cornflowerblue;
+            float: left;
+            margin-left: 110px;
+            margin-right: 50px;
+        }
+        #container2>#img_middle{
+            width: 25%;
+            height: 80%;
+            background-color: coral;
+            float: left;
+            margin-right: 50px;
+            background-image: url(imgs/index_detail_2.png);
+            color: white;
+            text-align: center;
+            line-height: 200px;
+        }
+        #container2>#img_right{
+            width: 25%;
+            height: 80%;
+            background-color: cyan;
+            float: left;
+        }
+        #container3{
+            width: 100%;
+            height: 600px;
+            background-color: wheat;
+        }
+        #container3>#left{
+            width: 30%;
+            height: 100%;
+            background-color: snow;
+            float: left;
+        }
+        #container3>#left>#left1{
+            width: 100%;
+            height: 33.3%;
+            color:white;
+            background-color: black;
+            padding-top: 50px;
+        }
+        #container3>#left>#left1>p{
+            border-left: blue solid 5px;
+            padding-left: 20px;
+        }
+        #container3>#right{
+            width: 70%;
+            height: 100%;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div id="head">
+    <h3 style="color: black">Tencent腾讯</h3>
+    <ul>
+        <li>业务
+            <ul>
+                <li><a href="#">公司简介</a></li>
+                <li><a href="#">企业文化</a></li>
+                <li><a href="#">就业前景</a></li>
+                <li><a href="#">发展历史</a></li>
+                <li><a href="#">业务架构</a></li>
+                <li><a href="#">办公地点</a></li>
+            </ul>
+        </li>
+        <li>员工</li>
+        <li>企业责任</li>
+        <li>投资者</li>
+        <li>媒体</li>
+    </ul>
+    <div id="lang"><a href="#">简</a> / <a href="#">繁</a> / <a href="#">EN</a></div>
+</div>
+<div id="videoShow">
+<!--    <video  style="object-fit: fill;height: 600px;z-index: -9999;position: absolute;left: 0px;top: 0;">
+        <source src="videos/a.mp4" type="video/mp4">
+    </video>-->
+    <video autoplay muted loop>Video
+        <source src="videos/a.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="container1">
+    <span>腾讯是一家以互联网为基础的平台公司</span><br>
+    <span>通过技术丰富互联网用户的生活，助力企业数字化升级。</span><br>
+    <span>我们的使命是“用户为本，科技向善”。</span><br>
+</div>
+<div id="container2">
+    <div id="img_left">
+
+    </div>
+    <div id="img_middle">
+        <p style="font-size: 20px;font-weight: bold">企业文化</p>
+    </div>
+    <div id="img_right"></div>
+</div>
+<div id="container3">
+    <div id="left">
+        <div id="left1">
+            <p>
+                <span>连接用户与生活</span><br>
+                <span>让生活更便捷更多彩</span>
+            </p>
+        </div>
+    </div>
+    <div id="right"></div>
+</div>
+</body>
+</html>

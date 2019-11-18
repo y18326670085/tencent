@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0; padding: 0;}
+        #head{
+            overflow: hidden;
+            width: 100%;
+            padding-top: 20px;
+            position: absolute;
+            height:30px;
+            -webkit-transition: height 1s;
+        }
+        #head:hover{
+            height: 300px;
+            background-color: white;
+        }
+        #head:hover>ul>li{
+            color: black;
+        }
+       #head>h3{
+            float: left;
+            margin-left: 20px;
+        }
+        #head>#lang{
+            float: right;
+            margin-right: 50px;
+        }
+        #head>#lang>a{
+            text-decoration: none;
+        }
+        #head>ul{
+            width: 60%;
+            overflow: hidden;
+            float: left;
+            margin-left: 50px;
+        }
+        #head>ul>li{
+            list-style-type: none;
+            float: left;
+            width: 20%;
+            color: white;
+            text-align: center;
+        }
+        #head>ul>li>ul{
+            display: none;
+        }
+        #head>ul>li:hover ul{
+            display: block;
+        }
+        #head>ul>li>ul>li{
+            height: 20px;
+            list-style-type: none;
+            font-size: 10px;
+        }
+        #head>ul>li>ul>li>a{
+            text-decoration: none;
+            color: black;
+        }
+
+        /*    #content2{
+             width: 100%;
+             height: 600px;
+             background-color: white;
+         }
+         #content2>#left{
+             width: 30%;
+             height: 100%;
+             background-color: lightskyblue;
+             float: left;
+         }
+         #content2>#left>#left_top{
+             width: 100%;
+             height: 33.3%;
+             background-color: #111111;
+             color: white;
+         }
+         #content2>#left>#left_top>p{
+             padding-left: 2%;
+             position: relative;
+             top: 10%;
+             left: -23%;
+             border-left: cornflowerblue solid 5px;
+             -webkit-transition: all 1.5s;
+         }
+         #content2>#left>#left_top:hover>p{
+             left: 8%;
+         }
+         #content2>#right{
+             width: 70%;
+             height: 100%;
+             background-color: palegoldenrod;
+             float: right;
+         }
+         #content2>#right>#tl{
+             width: 50%;
+             height: 50%;
+             background-color: #ffff99;
+             float: left;
+         }
+         #content2>#right>#tr{
+             width: 50%;
+             height: 50%;
+             background-color: cornflowerblue;
+             float: left;
+         }
+         #content2>#right>#bl {
+             width: 50%;
+             height: 50%;
+             background-color: olive;
+             float: left;
+         }
+         #content2>#right>#br {
+             width: 50%;
+             height: 50%;
+             background-color: peachpuff;
+             float: left;
+         }
+         #footer{
+             width: 100%;
+             height: 150px;
+             background-color: gainsboro;
+         }*/
+    </style>
+</head>
+<body>
+<div id="head">
+    <h3>Tencent腾讯</h3>
+    <ul>
+        <li>业务
+            <ul>
+                <li><a href="#">公司简介</a></li>
+                <li><a href="#">企业文化</a></li>
+                <li><a href="#">就业前景</a></li>
+                <li><a href="#">发展历史</a></li>
+                <li><a href="#">业务架构</a></li>
+                <li><a href="#">办公地点</a></li>
+            </ul>
+        </li>
+        <li>员工
+
+        </li>
+        <li>企业责任
+
+        </li>
+        <li>投资者</li>
+        <li>媒体</li>
+    </ul>
+    <div id="lang">
+        <a href="#">简</a> / <a href="#">繁</a> / <a href="#">EN</a>
+    </div>
+</div>
+<div id="videoShow" style="position: relative;top: 0;left: 0">
+   <video  style="object-fit: fill;height: 600px;z-index: -9999;position: absolute;left: 0px;top: 0;">
+        <source src="videos/a.mp4" type="video/mp4">
+    </video>
+</div>
+<!--<div id="content">
+    <div id="left">
+        <div id="left_top">
+            <p>
+                连接人与人<br>
+                -&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;
+            </p>
+        </div>
+        <div id="left_middle"></div>
+        <div id="left_bottom"></div>
+    </div>
+    <div id="right">
+        <div id="tl"></div>
+        <div id="tr"></div>
+        <div id="bl"></div>
+        <div id="br"></div>
+    </div>
+</div>
+<div id="footer"></div>
+-->
+
+</body>
+</html>
