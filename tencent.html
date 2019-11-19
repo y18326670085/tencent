@@ -78,9 +78,9 @@
             width: 100%;
             height: 300px;
             background-color: palegoldenrod;
-            padding-top: 50px;
+            /*padding-top: 50px;*/
         }
-        #container2>#img_left{
+        /*#container2>#img_left{
             width: 25%;
             height: 80%;
             background-color: cornflowerblue;
@@ -104,13 +104,17 @@
             height: 80%;
             background-color: cyan;
             float: left;
-        }
+            background-image: url(imgs/index_detail_3.png);
+            color: white;
+            text-align: center;
+            line-height: 200px;
+        }*/
         #container3{
             width: 100%;
             height: 600px;
             background-color: wheat;
         }
-        #container3>#left{
+        /*#container3>#left{
             width: 30%;
             height: 100%;
             background-color: snow;
@@ -126,11 +130,34 @@
         #container3>#left>#left1>p{
             border-left: blue solid 5px;
             padding-left: 20px;
+            -webkit-transition: all 2s;
+            position: relative;
+            left: -180px;
+        }
+        #container3>#left>#left1:hover>p{
+            left: 10px;
         }
         #container3>#right{
             width: 70%;
             height: 100%;
             float: right;
+        }*/
+        #container4{
+            width: 100%;
+            height: 600px;
+            background-color: beige;
+        }
+        #container5{
+            width: 100%;
+            height: 700px;
+        }
+        #footer_top{
+            width: 100%;
+            height: 130px;
+        }
+        #footer_middle{
+            width: 100%;
+            height: 480px;
         }
     </style>
 </head>
@@ -169,16 +196,10 @@
     <span>我们的使命是“用户为本，科技向善”。</span><br>
 </div>
 <div id="container2">
-    <div id="img_left">
-
-    </div>
-    <div id="img_middle">
-        <p style="font-size: 20px;font-weight: bold">企业文化</p>
-    </div>
-    <div id="img_right"></div>
+    <iframe src="container2.html" width=100% height=100% scrolling="no" frameborder="0"></iframe>
 </div>
 <div id="container3">
-    <div id="left">
+    <!--<div id="left">
         <div id="left1">
             <p>
                 <span>连接用户与生活</span><br>
@@ -186,7 +207,18 @@
             </p>
         </div>
     </div>
-    <div id="right"></div>
+    <div id="right"></div>-->
+    <iframe src="container3.html" width=100% height=100% scrolling="no" frameborder="0"></iframe>
 </div>
+<div id="container4">
+    <iframe src="container4.html" width=100% height=100% scrolling="no" frameborder="0"></iframe>
+</div>
+<div id="container5">
+    <iframe src="container5.html" width=100% height=100% scrolling="no" frameborder="0"></iframe>
+</div>
+<div id="footer_top">
+    <iframe src="footer_top.html" width=100% height=100% scrolling="no" frameborder="0"></iframe>
+</div>
+<div id="footer_middle"></div>
 </body>
 </html>
