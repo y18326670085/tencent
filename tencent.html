@@ -7,9 +7,13 @@
         *{margin:0; padding: 0;}
         #head{
             width: 100%;
+            height:600px;
+        }
+        /*#head{
+            width: 100%;
             position: absolute;
             height:30px;
-            background-color: wheat;
+            !*background-color: wheat;*!
             -webkit-transition: height 2s;
             color: white;
         }
@@ -22,6 +26,7 @@
             float: left;
             padding-left: 20px;
             padding-right: 20px;
+            color: white;
         }
         #head>ul{
             float: left;
@@ -60,14 +65,14 @@
         }
         #head>#lang{
             float:right;
-        }
-        #videoShow video{
+        }*/
+/*        #videoShow video{
             width: 100%;
             height:600px;
             object-fit: fill;
             position: relative;top: 0;left: 0;
             z-index: -99;
-        }
+        }*/
         #container1{
             width: 100%;
             text-align: center;
@@ -80,68 +85,11 @@
             background-color: palegoldenrod;
             /*padding-top: 50px;*/
         }
-        /*#container2>#img_left{
-            width: 25%;
-            height: 80%;
-            background-color: cornflowerblue;
-            float: left;
-            margin-left: 110px;
-            margin-right: 50px;
-        }
-        #container2>#img_middle{
-            width: 25%;
-            height: 80%;
-            background-color: coral;
-            float: left;
-            margin-right: 50px;
-            background-image: url(imgs/index_detail_2.png);
-            color: white;
-            text-align: center;
-            line-height: 200px;
-        }
-        #container2>#img_right{
-            width: 25%;
-            height: 80%;
-            background-color: cyan;
-            float: left;
-            background-image: url(imgs/index_detail_3.png);
-            color: white;
-            text-align: center;
-            line-height: 200px;
-        }*/
         #container3{
             width: 100%;
             height: 600px;
             background-color: wheat;
         }
-        /*#container3>#left{
-            width: 30%;
-            height: 100%;
-            background-color: snow;
-            float: left;
-        }
-        #container3>#left>#left1{
-            width: 100%;
-            height: 33.3%;
-            color:white;
-            background-color: black;
-            padding-top: 50px;
-        }
-        #container3>#left>#left1>p{
-            border-left: blue solid 5px;
-            padding-left: 20px;
-            -webkit-transition: all 2s;
-            position: relative;
-            left: -180px;
-        }
-        #container3>#left>#left1:hover>p{
-            left: 10px;
-        }
-        #container3>#right{
-            width: 70%;
-            height: 100%;
-            float: right;
-        }*/
         #container4{
             width: 100%;
             height: 600px;
@@ -163,7 +111,8 @@
 </head>
 <body>
 <div id="head">
-    <h3 style="color: black">Tencent腾讯</h3>
+    <iframe src="head.html" width=100% height=100% scrolling="no" frameborder="0"></iframe>
+    <!--<h3>Tencent腾讯</h3>
     <ul>
         <li>业务
             <ul>
@@ -180,16 +129,16 @@
         <li>投资者</li>
         <li>媒体</li>
     </ul>
-    <div id="lang"><a href="#">简</a> / <a href="#">繁</a> / <a href="#">EN</a></div>
+    <div id="lang"><a href="#">简</a> / <a href="#">繁</a> / <a href="#">EN</a></div>-->
 </div>
-<div id="videoShow">
-<!--    <video  style="object-fit: fill;height: 600px;z-index: -9999;position: absolute;left: 0px;top: 0;">
+<!--<div id="videoShow">
+&lt;!&ndash;    <video  style="object-fit: fill;height: 600px;z-index: -9999;position: absolute;left: 0px;top: 0;">
         <source src="videos/a.mp4" type="video/mp4">
-    </video>-->
+    </video>&ndash;&gt;
     <video autoplay muted loop>Video
         <source src="videos/a.mp4" type="video/mp4">
     </video>
-</div>
+</div>-->
 <div id="container1">
     <span>腾讯是一家以互联网为基础的平台公司</span><br>
     <span>通过技术丰富互联网用户的生活，助力企业数字化升级。</span><br>
@@ -199,15 +148,6 @@
     <iframe src="container2.html" width=100% height=100% scrolling="no" frameborder="0"></iframe>
 </div>
 <div id="container3">
-    <!--<div id="left">
-        <div id="left1">
-            <p>
-                <span>连接用户与生活</span><br>
-                <span>让生活更便捷更多彩</span>
-            </p>
-        </div>
-    </div>
-    <div id="right"></div>-->
     <iframe src="container3.html" width=100% height=100% scrolling="no" frameborder="0"></iframe>
 </div>
 <div id="container4">

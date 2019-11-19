@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0; padding: 0;}
+        #container{
+            width: 100%;
+            height: 600px;
+        }
+        #head{
+            width: 100%;
+            position: absolute;
+            height:30px;
+            background-color: wheat;
+            -webkit-transition: height 2s;
+            color: white;
+        }
+        #head:hover{
+            height:300px;
+            color: black;
+            background-color: peachpuff;
+        }
+        #head>h3{
+            float: left;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+        }
+        #head>ul{
+            float: left;
+            width: 60%;
+            margin-left: 50px;
+        }
+        #head>#lang>a{
+            text-decoration: none;
+            color: white;
+            cursor: hand;
+        }
+        #head:hover>#lang>a{
+            color: black;
+        }
+        #head>ul>li{
+            list-style: none;
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+        #head>ul>li:hover ul{
+            display: block;
+        }
+        #head>ul>li>ul{
+            margin-top: 20px;
+            display: none;
+        }
+        #head>ul>li>ul>li{
+            list-style: none;
+            height: 40px;
+        }
+        #head>ul>li>ul>li>a{
+            text-decoration: none;
+        }
+        #head:hover>ul>li>ul>li>a{
+            color: black;
+            cursor: hand;
+        }
+        #head>#lang{
+            float:right;
+        }
+        #videoShow video{
+            width: 100%;
+            object-fit: fill;
+            position: relative;top: 0;left: 0;
+            z-index: -99;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="head">
+        <h3>Tencent腾讯</h3>
+        <ul>
+            <li>业务
+                <ul>
+                    <li><a href="#">公司简介</a></li>
+                    <li><a href="#">企业文化</a></li>
+                    <li><a href="#">就业前景</a></li>
+                    <li><a href="#">发展历史</a></li>
+                    <li><a href="#">业务架构</a></li>
+                    <li><a href="#">办公地点</a></li>
+                </ul>
+            </li>
+            <li>员工</li>
+            <li>企业责任</li>
+            <li>投资者</li>
+            <li>媒体</li>
+        </ul>
+        <div id="lang"><a href="#">简</a> / <a href="#">繁</a> / <a href="#">EN</a></div>
+    </div>
+    <div id="videoShow">
+        <!--    <video  style="object-fit: fill;height: 600px;z-index: -9999;position: absolute;left: 0px;top: 0;">
+                <source src="videos/a.mp4" type="video/mp4">
+            </video>-->
+        <video autoplay muted loop>Video
+            <source src="videos/a.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+</body>
+</html>
