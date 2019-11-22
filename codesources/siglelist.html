@@ -9,6 +9,9 @@
             list-style-type: none;
             text-align: center;
         }
+        a{
+            text-decoration: none;
+        }
         #container{
             border: #111111 solid 1px;
             width: 100%;
@@ -24,11 +27,23 @@
             line-height: 70px;
             width: 25%;
         }
+        /*        #container>ul>li>a{
+                    border-bottom: blue solid 3px;
+                    padding-bottom: 3px;
+                }*/
+        #container>ul>li:hover>a{
+            border-bottom: blue solid 3px;
+            padding-bottom: 3px;
+        }
         #container>ul>li:hover>ul{
             display: block;
         }
         #container>ul>li>ul{
-            display: none;
+            /*display: none;*/
+            border: #d12340 solid 1px;
+        }
+        #container>ul>li>ul>li{
+            line-height: 50px;
         }
     </style>
 
@@ -36,7 +51,8 @@
 <body>
 <div id="container">
     <ul>
-        <li>简介
+        <li>
+            <a href="#">简介</a>
             <ul>
                 <li>公司简介</li>
                 <li>愿景及使命</li>
@@ -44,7 +60,8 @@
                 <li>业务架构</li>
             </ul>
         </li>
-        <li>业务
+        <li>
+            <a href="#">业务</a>
             <ul>
                 <li>面向用户</li>
                 <li>面向企业</li>
