@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: 'tengxun';
+            src: url('../fonts/tencentsans-w3.ttf') format('ttf');
+        }
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        *{margin: 0;padding: 0;}
+        #container{
+            width: 100%;
+            height: 250px;
+            background-color: wheat;
+            overflow: hidden;
+            -webkit-transition: height 5s;
+        }
+        #container>h3{
+            float: left;
+            margin-left: 30px;
+        }
+        #container>ul{
+            border: #111111 solid 1px;
+            float: left;
+            overflow: hidden;
+            width: 60%;
+            margin-left: 50px;
+        }
+        #container>ul>li{
+            list-style-type: none;
+            float: left;
+            text-align: center;
+            /*border: red solid 1px;*/
+            width: 15.3%;
+        }
+        #container>ul>li ul{
+            display: none;
+        }
+        /*#container>ul>li:nth-child(1):hover>ul>li{*/
+            /*display:block;*/
+        /*}*/
+        #container>ul>li{
+            list-style-type: none;
+            font-size: 13px;
+        }
+
+        #container>#lang{
+            float: right;
+        }
+
+
+        #container>ul>li:hover>a{
+            /*text-decoration: underline;*/
+            border-bottom: 2px solid blue;
+        }
+        #container>ul>li:hover>ul{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h3>Tencent腾讯</h3>
+    <ul>
+        <li>
+            <a href="#">简介</a>
+            <ul>
+                <li><a href="#">公司简介</a></li>
+                <li><a href="#">企业文化</a></li>
+                <li><a href="#">就业前景</a></li>
+                <li><a href="#">发展历史</a></li>
+                <li><a href="#">业务架构</a></li>
+                <li><a href="#">办公地点</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">业务</a>
+            <ul>
+                <li><a href="#">面向用户</a></li>
+                <li><a href="#">面向企业</a></li>
+                <li><a href="#">创新科技</a></li>
+            </ul>
+        </li>
+        <li>员工</li>
+        <li>企业责任</li>
+        <li>投资者</li>
+        <li>
+            <a href="#">媒体</a>
+            <ul>
+                <li><a href="#">企业动态</a></li>
+                <li><a href="#">财务新闻</a></li>
+                <li><a href="#">腾讯视角</a></li>
+                <li><a href="#">媒体资料库</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div id="lang"><a href="#">简</a> / <a href="#">繁</a> / <a href="#">EN</a></div>
+</div>
+
+</body>
+</html>

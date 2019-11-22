@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        li{
+            list-style-type: none;
+            text-align: center;
+        }
+        #container{
+            border: #111111 solid 1px;
+            width: 100%;
+        }
+        #container>ul{
+            border: #d12340 solid 1px;
+            overflow: hidden;
+            /*height: 72px;*/
+            width: 73%;
+        }
+        #container>ul>li{
+            float: left;
+            line-height: 70px;
+            width: 25%;
+        }
+        #container>ul>li:hover>ul{
+            display: block;
+        }
+        #container>ul>li>ul{
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+<div id="container">
+    <ul>
+        <li>简介
+            <ul>
+                <li>公司简介</li>
+                <li>愿景及使命</li>
+                <li>发展历程</li>
+                <li>业务架构</li>
+            </ul>
+        </li>
+        <li>业务
+            <ul>
+                <li>面向用户</li>
+                <li>面向企业</li>
+                <li>创新科技</li>
+            </ul>
+        </li>
+        <li>企业文化</li>
+        <li>媒体</li>
+    </ul>
+</div>
+</body>
+</html>
