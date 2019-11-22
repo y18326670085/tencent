@@ -11,26 +11,38 @@
         }
         a{
             text-decoration: none;
+            color: black;
         }
         #container{
             border: #111111 solid 1px;
             width: 100%;
+            height: 72px;
+            -webkit-transition: height 3s;
+            background-color: #c3c3c3;
+        }
+        #container>h3{
+            float: left;
+            border: #d12340 solid 1px;
         }
         #container>ul{
             border: #d12340 solid 1px;
             overflow: hidden;
-            /*height: 72px;*/
-            width: 73%;
+            float: left;
+            width: 50%;
+        }
+        #container>div{
+            height: 50px;
+            background-color: red;
+            -webkit-transition: height 3s;
         }
         #container>ul>li{
             float: left;
             line-height: 70px;
             width: 25%;
         }
-        /*        #container>ul>li>a{
-                    border-bottom: blue solid 3px;
-                    padding-bottom: 3px;
-                }*/
+        #container>ul:hover+div{
+            height: 100px;
+        }
         #container>ul>li:hover>a{
             border-bottom: blue solid 3px;
             padding-bottom: 3px;
@@ -39,17 +51,17 @@
             display: block;
         }
         #container>ul>li>ul{
-            /*display: none;*/
-            border: #d12340 solid 1px;
+            display: none;
+            /*border: #d12340 solid 1px;*/
         }
         #container>ul>li>ul>li{
             line-height: 50px;
         }
     </style>
-
 </head>
 <body>
 <div id="container">
+    <h3>Tencent腾讯</h3>
     <ul>
         <li>
             <a href="#">简介</a>
@@ -71,6 +83,7 @@
         <li>企业文化</li>
         <li>媒体</li>
     </ul>
+    <div>悬浮背景</div>
 </div>
 </body>
 </html>
