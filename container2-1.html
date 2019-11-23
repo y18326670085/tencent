@@ -8,7 +8,7 @@
             list-style-type: none;
         }
         a{
-            color: #111111;
+            color: white;
         }
         *{margin: 0;padding: 0;}
         #container2
@@ -20,29 +20,39 @@
             padding-left: 50px;
         }
         #container2>ul{
-            width: 90%;
+            width: 95%;
             /*border: #111111 solid 1px;*/
             overflow: hidden;
             height: 100%;
         }
         #container2>ul>li{
             float: left;
-            width: 33.1%;
+            width: 32%;
             /*border: #111111 solid 1px;*/
             height: 99%;
             position: relative;
+            /*padding: 10px;*/
+            padding-right: 15px;
+        }
+        #container2>ul>li:hover a p{
+            border-bottom: white solid 2px;
         }
         #container2>ul>li a{
-            display: block;
+            /*display: block;*/
         }
         #container2>ul>li a p{
             position: absolute;
             z-index: 2;
+            top: 40%;
+            left: 40%;
         }
         #container2>ul>li a img{
             width: 100%;
             height: 100%;
             /*vertical-align: middle;*/
+        }
+        #container2>ul>li:hover a img{
+            -webkit-transform: scale(1.02,1);
         }
         #container2>ul>li>a:after{
             content: "";
@@ -55,6 +65,10 @@
             left: 0;
             /*z-index: 1;*/
             position: absolute;
+            display: none;
+        }
+        #container2>ul>li:hover>a:after{
+            display: block;
         }
     </style>
 </head>
@@ -64,11 +78,21 @@
     <li>
         <a href="#">
             <p>公司简介</p>
-            <img src="picture/index_detail_1.png" width="400px" height="250">
+            <img src="picture/index_detail_1.png">
         </a>
     </li>
-    <li>企业文化</li>
-    <li>办公地点</li>
+    <li>
+        <a href="#">
+            <p>企业文化</p>
+            <img src="picture/index_detail_2.png">
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <p>办公地点</p>
+            <img src="picture/index_detail_3.png">
+        </a>
+    </li>
 </ul>
 </div>
 
