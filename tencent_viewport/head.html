@@ -14,18 +14,34 @@
         }
         a{
             text-decoration: none;
-            /*color: white;*/
+            color: black;
         }
         #container{
             padding: 0 74.5px;
+            border: #d12340 solid 1px;
+            overflow: hidden;
         }
         #container>h3{
             float: left;
-            /*color: white;*/
             margin-top: 25px;
         }
+        #container>h3>p:first-child {
+            color: black;
+            position: absolute;
+        }
+        #container:hover>h3>p:first-child{
+            display: none;
+        }
+        #container>h3>p:last-child{
+            color: blue;
+            display: none;
+            position: absolute;
+        }
+        #container:hover>h3>p:last-child{
+            display: block;
+        }
         #container>ul{
-            border: #111111 solid 1px;
+            /*border: #111111 solid 1px;*/
             float: left;
             overflow: hidden;
             width: 60%;
@@ -35,7 +51,8 @@
         #container>p{
             height: 72px;
             width: 100%;
-            background-color: red;
+            /*background-color: red;*/
+            background-color: white;
             position: absolute;
             top: 0;
             left: 0;
@@ -81,7 +98,10 @@
 </head>
 <body>
 <div id="container">
-    <h3>Tencent腾讯</h3>
+    <h3>
+        <p>Tencent腾讯</p>
+        <p>Tencent腾讯</p>
+    </h3>
     <ul>
         <li>
             <a href="#">简介</a>
@@ -142,10 +162,10 @@
         </li>
     </ul>
     <p></p>
-    <div><a href="#">简</a> / <a href="#">繁</a> / <a href="#">EN</a></div>
-<!--    <video autoplay muted loop>
+    <div><a href="#">简  / </a><a href="#">繁  / </a><a href="#">EN</a></div>
+    <video autoplay muted loop>
         <source src="../videos/a.mp4" type="video/mp4">
-    </video>-->
+    </video>
 </div>
 
 </body>
