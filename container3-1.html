@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        a{
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+        #container3{
+            width: 100%;
+            height: 780px;
+            background-color: wheat;
+            overflow: hidden;
+        }
+        #container3_left{
+            width: 36%;
+            height: 100%;
+            background-color: #c3c3c3;
+            float: left;
+        }
+/*        #container3_right{
+            width: 64%;
+            height: 100%;
+            float: right;
+            overflow: hidden;
+        }*/
+        #container3_left>ul{
+            width: 100%;
+            height: 100%;
+        }
+        #container3_left>ul li{
+            width: 100%;
+            height: 33.3%;
+            border: #111111 solid 1px;
+        }
+        #container3_left>ul li a{
+            position: relative;
+            top: 20%;
+            left: 12%;
+            -webkit-transition: left 2s;
+        }
+        #container3_left>ul li a h3{
+            line-height: 50px;
+        }
+        #container3_left>ul li a h3::after{
+            content: "";
+            width: 7px;
+            height: 70px;
+            background-color: #1e52d8;
+            position: absolute;
+            top: 10%;
+            left: -7%;
+        }
+        #container3_left>ul li:hover a{
+            left: 18%;
+        }
+        #container3_left>ul li:hover
+/*        #container3_right_1{
+            width: 100%;
+            height: 100%;
+            background-color: #d12340;
+            position: absolute;
+            display: none;
+        }
+        #container3_right_2{
+            width: 100%;
+            height: 100%;
+            background-color: #c3c3c3;
+            position: absolute;
+            display: none;
+        }
+        #container3_right_3{
+            width: 100%;
+            height: 100%;
+            background-color: #1e52d8;
+            position: absolute;
+        }*/
+        #container3>div:last-child{
+            width: 64%;
+            height: 100%;
+            background-color: red;
+            float: right;
+        }
+        #container3>div:last-child>div:first-child{
+            width: 100%;
+            height: 100%;
+            background-color: yellowgreen;
+            display: none;
+        }
+        #container3>div:last-child>div:nth-child(2){
+            width: 100%;
+            height: 100%;
+            background-color: #ffff99;
+            display: none;
+        }
+        #container3>div:last-child>div:last-child{
+            width: 100%;
+            height: 100%;
+            background-color: #111111;
+        }
+    </style>
+</head>
+<body>
+<div id="container3">
+    <div id="container3_left">
+        <ul>
+            <li>
+                <a href="#">
+                    <h3>连接企业与科技</h3>
+                    <p>数字化助手，助力产业升级</p>
+                    <img src="images/icon_arrow_r_s.png" width="54px" height="16px" style="margin-top: 30px">
+                </a>
+            </li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div id="container3_right">
+<!--        <div id="container3_right_1"></div>
+        <div id="container3_right_2"></div>
+        <div id="container3_right_3"></div>-->
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+</body>
+</html>

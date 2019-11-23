@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        #container{
+            width: 100%;
+            height: 900px;
+            background-color: wheat;
+            overflow: hidden;
+        }
+        #container>div:first-child{
+            width: 30%;
+            height: 20%;
+            background-color: #999999;
+        }
+        #container>div:first-child:hover+div{
+            display: none;
+        }
+        #container>div:nth-child(2){
+            width: 70%;
+            height: 60%;
+            background-color: black;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        #container>div:nth-child(3){
+            width: 30%;
+            height: 20%;
+            background-color: blueviolet;
+        }
+        #container>div:nth-child(4){
+            width: 30%;
+            height: 20%;
+            background-color: #d12340;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <!--<div></div>-->
+</div>
+
+</body>
+</html>
