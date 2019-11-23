@@ -4,9 +4,6 @@
     <list default="true" id="c49a61e2-94e5-436e-a940-afac7c7c68ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codesources/siglelist.html" beforeDir="false" afterPath="$PROJECT_DIR$/codesources/siglelist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tecent_teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/tecent_teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tencent_viewport/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/tencent_viewport/head.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/codesources/siglelist.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="79" column="29" lean-forward="true" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+              <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -151,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../课程" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -193,12 +190,13 @@
       <workItem from="1574208570499" duration="24954000" />
       <workItem from="1574251389543" duration="1279000" />
       <workItem from="1574386229346" duration="3886000" />
-      <workItem from="1574437415992" duration="1222000" />
+      <workItem from="1574437415992" duration="1417000" />
+      <workItem from="1574470932131" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59404000" />
+    <option name="totallyTimeSpent" value="59623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -390,7 +388,7 @@
     <entry file="file://$PROJECT_DIR$/codesources/siglelist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="79" column="29" lean-forward="true" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+          <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
         </state>
       </provider>
     </entry>
