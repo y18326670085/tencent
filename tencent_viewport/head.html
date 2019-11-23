@@ -14,9 +14,15 @@
         }
         a{
             text-decoration: none;
+            /*color: white;*/
+        }
+        #container{
+            padding: 0 74.5px;
         }
         #container>h3{
             float: left;
+            /*color: white;*/
+            margin-top: 25px;
         }
         #container>ul{
             border: #111111 solid 1px;
@@ -24,11 +30,29 @@
             overflow: hidden;
             width: 60%;
             text-align: center;
+            margin-left: 200px;
+        }
+        #container>p{
+            height: 72px;
+            width: 100%;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            -webkit-transition: height 3s;
+        }
+        #container>div{
+            float: right;
+            margin-top: 25px;
         }
         #container>ul>li{
             float: left;
             width: 15.3%;
             line-height: 72px;
+        }
+        #container>ul:hover+p{
+            height: 400px;
         }
         #container>ul>li:hover>a{
             padding-bottom: 3px;
@@ -43,17 +67,6 @@
         }
         #container>ul>li>ul>li{
             line-height: 35px;
-        }
-        #container>p{
-            height: 72px;
-            background-color: red;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
-        }
-        #container>div{
-
         }
         #container>video{
             object-fit: fill;
@@ -89,9 +102,35 @@
                 <li><a href="#">创新科技</a></li>
             </ul>
         </li>
-        <li>员工</li>
-        <li>企业责任</li>
-        <li>投资者</li>
+        <li>
+            <a a href="#">员工</a>
+            <ul>
+                <li><a href="#">人才发展</a></li>
+                <li><a href="#">腾讯学院</a></li>
+                <li><a href="#">工作环境</a></li>
+                <li><a href="#">员工活动</a></li>
+            </ul>
+        </li>
+        <li>
+            <a a href="#">企业责任</a>
+            <ul>
+                <li><a href="#">践行承诺</a></li>
+                <li><a href="#">支持善举</a></li>
+                <li><a href="#">鼓励创新</a></li>
+                <li><a href="#">企业社会责任报告</a></li>
+            </ul>
+        </li>
+        <li>
+            <a a href="#">投资者</a>
+            <ul>
+                <li><a href="#">财务新闻</a></li>
+                <li><a href="#">公告及财务报告</a></li>
+                <li><a href="#">业绩电话会及路演</a></li>
+                <li><a href="#">投资者工具包</a></li>
+                <li><a href="#">证券及债权信息</a></li>
+                <li><a href="#">企业管制</a></li>
+            </ul>
+        </li>
         <li>
             <a href="#">媒体</a>
             <ul>
@@ -102,11 +141,11 @@
             </ul>
         </li>
     </ul>
-    <p>背景</p>
+    <p></p>
     <div><a href="#">简</a> / <a href="#">繁</a> / <a href="#">EN</a></div>
-    <video autoplay muted loop>
+<!--    <video autoplay muted loop>
         <source src="../videos/a.mp4" type="video/mp4">
-    </video>
+    </video>-->
 </div>
 
 </body>
