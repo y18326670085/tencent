@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        #container{
+            width: 100%;
+            height: 900px;
+            background-color: wheat;
+            overflow: hidden;
+            /*position的absolute和relative一定要配合使用*/
+            position: relative;
+        }
+        #container>div:first-child{
+            width: 30%;
+            height: 33%;
+            background-color: #999999;
+            /*float: left;*/
+        }
+        /*        #container>p:first-child{
+                    width: 70%;
+                    height: 100%;
+                    background-color: #d12340;
+                    float: right;
+                }*/
+        #container>div:nth-child(3){
+            width: 30%;
+            height: 33%;
+            background-color: blueviolet;
+        }
+        #container>div:nth-child(5){
+            width: 30%;
+            height: 15%;
+            background-color: #d12340;
+        }
+        #container>div:nth-child(2){
+            width: 70%;
+            height: 100%;
+            background-color: #c3c3c3;
+            position: absolute;
+            top: 0;
+            right: 0;
+            /*display: none;*/
+        }
+        #container>div:nth-child(4){
+            width: 70%;
+            height: 60%;
+            background-color: #ffff99;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: none;
+        }
+        #container>div:nth-child(6){
+            width: 70%;
+            height: 100%;
+            background-color: blueviolet;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div>height 33%</div>
+    <!--相应第一个的悬浮-->
+    <div>height 100% <br> 后面有悬浮 container设置属性relative</div>
+
+    <div>height 33%</div>
+    <!--相应第二个的悬浮-->
+    <div></div>
+
+    <div>height 15%</div>
+    <!--相应第三个的悬浮-->
+    <div></div>
+</div>
+
+</body>
+</html>
