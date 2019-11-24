@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+    <style>
+        *{margin:0; padding:0;}
+        #main {
+            width: 200px;
+            height: 100px;
+            border: 1px solid #c3c3c3;
+            display: -webkit-flex; /* Safari */
+            -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #main div {
+            width: 30%;
+            height: 50%;
+        }
+        #main div:first-child{
+            position:relative;
+        }
+        /*#main div:first-child:hover:after{
+            content: "txt";
+            position: absolute;
+            top:0;
+            left:0；
+        }*/
+    </style>
+</head>
+<body>
+
+<div id="main">
+    <div style="background-color:coral;">
+        <p style="position:absolute;top:0;left:0;">A</p>
+        <p>BBB</p>
+    </div>
+    <div style="background-color:lightblue;">B</div>
+    <div style="background-color:khaki;">C</div>
+    <div style="background-color:pink;">D</div>
+    <div style="background-color:lightgrey;">E</div>
+    <div style="background-color:lightgreen;">F</div>
+</div>
+
+<p><b>注意:</b> Internet Explorer 10 及更早版本浏览器不支持 flex-wrap 属性。</p>
+<p><b>注意:</b> Safari 6.1 及更新版本通过 -webkit-flex-wrap 属性支持该属性。</p>
+
+</body>
+</html>
