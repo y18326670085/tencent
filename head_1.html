@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        #container{
+            overflow: hidden;
+        }
+        #container>div{
+            padding: 0 74.5px;
+            /*border: #d12340 solid 1px;*/
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #container>div>h3{
+            float: left;
+            margin-top: 25px;
+            /*border: #d12340 solid 1px;*/
+        }
+        #container>div>ul{
+            /*border: #111111 solid 1px;*/
+            float: left;
+            overflow: hidden;
+            width: 60%;
+            text-align: center;
+            margin-left: 200px;
+        }
+        #container>div>p{
+            height: 72px;
+            width: 100%;
+            /*background-color: red;*/
+            background-color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            -webkit-transition: height 3s;
+        }
+        #container>div>div{
+            float: right;
+            margin-top: 25px;
+        }
+        #container>div>ul>li{
+            float: left;
+            width: 15.3%;
+            line-height: 72px;
+        }
+        #container>div>ul:hover+p{
+            height: 400px;
+        }
+        #container>div>ul>li:hover>a{
+            padding-bottom: 3px;
+            border-bottom: 3px solid blue;
+        }
+        #container>div>ul>li>ul{
+            display: none;
+            font-size: 13px;
+        }
+        #container>div>ul>li:hover>ul{
+            display: block;
+        }
+        #container>div>ul>li>ul>li{
+            line-height: 35px;
+        }
+        #container>video{
+            object-fit: fill;
+            width: 100%;
+            height: 780px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -2;
+            /*border: blue solid 1px;*/
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div>
+    <h3>Tencent腾讯</h3>
+    <ul>
+        <li>
+            <a href="#">简介</a>
+            <ul>
+                <li><a href="#">公司简介</a></li>
+                <li><a href="#">企业文化</a></li>
+                <li><a href="#">就业前景</a></li>
+                <li><a href="#">发展历史</a></li>
+                <li><a href="#">业务架构</a></li>
+                <li><a href="#">办公地点</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">业务</a>
+            <ul>
+                <li><a href="#">面向用户</a></li>
+                <li><a href="#">面向企业</a></li>
+                <li><a href="#">创新科技</a></li>
+            </ul>
+        </li>
+        <li>
+            <a a href="#">员工</a>
+            <ul>
+                <li><a href="#">人才发展</a></li>
+                <li><a href="#">腾讯学院</a></li>
+                <li><a href="#">工作环境</a></li>
+                <li><a href="#">员工活动</a></li>
+            </ul>
+        </li>
+        <li>
+            <a a href="#">企业责任</a>
+            <ul>
+                <li><a href="#">践行承诺</a></li>
+                <li><a href="#">支持善举</a></li>
+                <li><a href="#">鼓励创新</a></li>
+                <li><a href="#">企业社会责任报告</a></li>
+            </ul>
+        </li>
+        <li>
+            <a a href="#">投资者</a>
+            <ul>
+                <li><a href="#">财务新闻</a></li>
+                <li><a href="#">公告及财务报告</a></li>
+                <li><a href="#">业绩电话会及路演</a></li>
+                <li><a href="#">投资者工具包</a></li>
+                <li><a href="#">证券及债权信息</a></li>
+                <li><a href="#">企业管制</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">媒体</a>
+            <ul>
+                <li><a href="#">企业动态</a></li>
+                <li><a href="#">财务新闻</a></li>
+                <li><a href="#">腾讯视角</a></li>
+                <li><a href="#">媒体资料库</a></li>
+            </ul>
+        </li>
+    </ul>
+    <p></p>
+    <div><a href="#">简  / </a><a href="#">繁  / </a><a href="#">EN</a></div>
+    </div>
+    <video autoplay muted loop>
+        <source src="videos/a.mp4" type="video/mp4">
+    </video>
+</div>
+</body>
+</html>
