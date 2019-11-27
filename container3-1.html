@@ -19,22 +19,37 @@
         }
         #container>div:first-child{
             width: 30%;
-            height: 33%;
+            height: 33.3%;
             background-color: #999999;
             /*float: left;*/
         }
-        #container>div:first-child:hover+div{
+        #container>div:first-child:hover+div,#container>div:nth-child(2):hover {
             /*display: none;*/
+            z-index: 1;
+        }
+        #container>div:first-child>a{
+            display: block;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            -webkit-transition: left 2s;
+        }
+        #container>div:first-child>a h3::after{
+            content: "";
+            width: 6px;
+            height: 70px;
+            background-color: #1e52d8;
+            position: absolute;
+            top: 0;
+            left: -20px;
+        }
+        #container>div:first-child:hover a{
+            left: 60px;
         }
         #container>div:nth-child(3){
             width: 30%;
-            height: 33%;
+            height: 33.3%;
             background-color: blueviolet;
-        }
-        #container>div:nth-child(5){
-            width: 30%;
-            height: 34%;
-            background-color: #d12340;
         }
         #container>div:nth-child(2){
             width: 70%;
@@ -101,14 +116,90 @@
             float: right;
             border: #111111 solid 1px;
         }
+        #container_lt_brother>div:nth-child(3){
+            background-image: url("images/index_link_1_3.png");
+            background-size: 100% 100%;
+        }
+        #container>div:nth-child(3):hover+div,#container>div:nth-child(4):hover {
+            /*display: none;*/
+            z-index: 1;
+        }
+        #container>div:nth-child(3)>a{
+            display: block;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            -webkit-transition: left 2s;
+        }
+        #container>div:nth-child(3)>a h3::after{
+            content: "";
+            width: 6px;
+            height: 70px;
+            background-color: #1e52d8;
+            position: absolute;
+            top: 0;
+            left: -20px;
+        }
+        #container>div:nth-child(3):hover a{
+            left: 60px;
+        }
+        #container>div:nth-child(3):hover+div{
+            z-index: 1;
+        }
         #container>div:nth-child(4){
             width: 70%;
-            height: 60%;
+            height: 100%;
             background-color: #ffff99;
             position: absolute;
             top: 0;
             right: 0;
-            display: none;
+            /*display: none;*/
+        }
+        #container>div:nth-child(4)>div:first-child{
+            width: 50%;
+            height: 50%;
+            float: left;
+            border: #d12340 solid 1px;
+            overflow: hidden;
+        }
+        #container>div:nth-child(4)>div:nth-child(2){
+            width: 50%;
+            height: 50%;
+            float: right;
+            border: #ffff99 solid 1px;
+        }
+        #container>div:nth-child(4)>div:nth-child(3){
+            width: 100%;
+            height: 50%;
+            float: left;
+            border: #1e52d8 solid 1px;
+        }
+        #container>div:nth-child(5){
+            width: 30%;
+            height: 33.4%;
+            background-color: #d12340;
+        }
+        #container>div:nth-child(5):hover+div {
+            /*display: none;*/
+        }
+        #container>div:nth-child(5)>a{
+            display: block;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            -webkit-transition: left 2s;
+        }
+        #container>div:nth-child(5)>a h3::after{
+            content: "";
+            width: 6px;
+            height: 70px;
+            background-color: #1e52d8;
+            position: absolute;
+            top: 0;
+            left: -20px;
+        }
+        #container>div:nth-child(5):hover a{
+            left: 60px;
         }
         #container>div:nth-child(6){
             width: 70%;
@@ -119,43 +210,20 @@
             right: 0;
             display: none;
         }
-        #container>div:first-child>a{
-            display: block;
-            position: relative;
-            top: 30px;
-            left: 40px;
-            -webkit-transition: left 2s;
-        }
-        #container>div:first-child>a h3::after{
-            content: "";
-            width: 6px;
-            height: 70px;
-            background-color: #1e52d8;
-            position: absolute;
-            top: 0;
-            left: -20px;
-        }
-        #container>#container_lt:hover a{
-            left: 60px;
-        }
-        #container_lt_brother>div:nth-child(3){
-            background-image: url("images/index_link_1_3.png");
-            background-size: 100% 100%;
-        }
     </style>
 </head>
 <body>
 <div id="container">
     <div id="container_lt">
         <a href="#">
-            <h3>连接企业与科技</h3><br>
-            <p>数字化助手，助力产业升级</p>
+            <h3>连接用户与生活</h3><br>
+            <p>让生活更便捷多彩</p>
             <img src="images/icon_arrow_r_s.png" width="54px" height="16px" style="margin-top: 30px">
         </a>
     </div>
     <!--相应第一个的悬浮-->
     <!--<div>height 100% <br> 后面有悬浮 container设置属性relative</div>-->
-    <div id="container_lt_brother">
+    <div><!-- nth-child(2) -->
         <div>
             <div>
                 <h4>通信与社交</h4>
@@ -164,14 +232,34 @@
         </div>
         <div>container_lt flex item 2</div>
         <div>container_lt flex item 3</div>
-        <div>container_lt flex item 4</div>
     </div>
 
-    <div id="container_m">height 33%</div>
+    <div id="container_m"><!-- nth-child(3) -->
+        <a href="#">
+            <h3>连接企业与科技</h3><br>
+            <p>数字化助手，助力产业升级</p>
+            <img src="images/icon_arrow_r_s.png" width="54px" height="16px" style="margin-top: 30px">
+        </a>
+    </div>
     <!--相应第二个的悬浮-->
-    <div></div>
+    <div id="container_m_brother">
+        <div>
+            <div>
+                <h4>腾讯广告营销</h4>
+                <p>大数据营销平台，汇聚腾讯全量应用场景，提供一体<br>化数字化营销方案。</p>
+            </div>
+        </div>
+        <div>container_m flex item 2</div>
+        <div>container_m flex item 3</div>
+    </div>
 
-    <div id="container_lb">height 15%</div>
+    <div id="container_lb"><!-- nth-child(5) -->
+        <a href="#">
+            <h3>连接现在与未来</h3><br>
+            <p>探索面向未来的创新科技</p>
+            <img src="images/icon_arrow_r_s.png" width="54px" height="16px" style="margin-top: 30px">
+        </a>
+    </div>
     <!--相应第三个的悬浮-->
     <div></div>
 </div>

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49a61e2-94e5-436e-a940-afac7c7c68ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codesources/iframe_container.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codesources/iframe_content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container4_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/head_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container3-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/container3-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tecent_teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/tecent_teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tencent.html" beforeDir="false" afterPath="$PROJECT_DIR$/tencent.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/container3-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+            <state relative-caret-position="346">
+              <caret line="123" column="30" lean-forward="true" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -194,18 +186,18 @@
       <workItem from="1574726968012" duration="50000" />
       <workItem from="1574817616882" duration="194000" />
       <workItem from="1574818116432" duration="11688000" />
-      <workItem from="1574850362429" duration="3813000" />
+      <workItem from="1574850362429" duration="8580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135682000" />
+    <option name="totallyTimeSpent" value="140449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -492,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/container3-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        <state relative-caret-position="346">
+          <caret line="123" column="30" lean-forward="true" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
         </state>
       </provider>
     </entry>
