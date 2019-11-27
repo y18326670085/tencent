@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        *{margin: 0;padding: 0;}
+        *{margin: 0;padding: 0; box-sizing: border-box; }
         a{
             text-decoration: none;
             color: white;
@@ -23,6 +23,9 @@
             background-color: #999999;
             /*float: left;*/
         }
+        #container>div:first-child:hover+div{
+            /*display: none;*/
+        }
         #container>div:nth-child(3){
             width: 30%;
             height: 33%;
@@ -30,7 +33,7 @@
         }
         #container>div:nth-child(5){
             width: 30%;
-            height: 15%;
+            height: 34%;
             background-color: #d12340;
         }
         #container>div:nth-child(2){
@@ -41,7 +44,62 @@
             top: 0;
             right: 0;
             /*display: none;*/
-            display: flex;
+            /*display: flex;*/
+        }
+        #container>div:nth-child(2)>div:first-child{
+            width: 50%;
+            height: 50%;
+            /*background-color: #d12340;*/
+            /*z-index: 1;*/
+            float: left;
+            /*background-image: url("images/index_link_1_2.png");*/
+            /*background-size: 100% 100%;*/
+            border: #d12340 solid 1px;
+            overflow: hidden;
+        }
+        #container>div:nth-child(2)>div:first-child:hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(2)>div:first-child h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(2)>div:first-child p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(2)>div:first-child div{
+            width: 300px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(2)>div:nth-child(2){
+            width: 50%;
+            height: 50%;
+            /*background-color: #ffff99;*/
+            /*z-index: 1;*/
+            float: right;
+            /*background-image: url("images/index_link_1_3.png");*/
+            /*background-size: 100% 100%;*/
+            border: #ffff99 solid 1px;
+        }
+        #container>div:nth-child(2)>div:nth-child(3){
+            width: 50%;
+            height: 50%;
+            /*background-color: #1e52d8;*/
+            /*z-index: 1;*/
+            float: left;
+            border: #1e52d8 solid 1px;
+        }
+        #container>div:nth-child(2)>div:nth-child(4){
+            width: 50%;
+            height: 50%;
+            /*background-color: #1e52d8;*/
+            /*z-index: 1;*/
+            float: right;
+            border: #111111 solid 1px;
         }
         #container>div:nth-child(4){
             width: 70%;
@@ -66,6 +124,7 @@
             position: relative;
             top: 30px;
             left: 40px;
+            -webkit-transition: left 2s;
         }
         #container>div:first-child>a h3::after{
             content: "";
@@ -76,11 +135,18 @@
             top: 0;
             left: -20px;
         }
+        #container>#container_lt:hover a{
+            left: 60px;
+        }
+        #container_lt_brother>div:nth-child(3){
+            background-image: url("images/index_link_1_3.png");
+            background-size: 100% 100%;
+        }
     </style>
 </head>
 <body>
 <div id="container">
-    <div>
+    <div id="container_lt">
         <a href="#">
             <h3>连接企业与科技</h3><br>
             <p>数字化助手，助力产业升级</p>
@@ -89,17 +155,23 @@
     </div>
     <!--相应第一个的悬浮-->
     <!--<div>height 100% <br> 后面有悬浮 container设置属性relative</div>-->
-    <div>
-        <div>flex item 1</div>
-        <div>flex item 2</div>
-        <div>flex item 3</div>
+    <div id="container_lt_brother">
+        <div>
+            <div>
+                <h4>通信与社交</h4>
+                <p>连接人与人，提供功能丰富的即时通信和社交<br>平台，让沟通更便捷。</p>
+            </div>
+        </div>
+        <div>container_lt flex item 2</div>
+        <div>container_lt flex item 3</div>
+        <div>container_lt flex item 4</div>
     </div>
 
-    <div>height 33%</div>
+    <div id="container_m">height 33%</div>
     <!--相应第二个的悬浮-->
     <div></div>
 
-    <div>height 15%</div>
+    <div id="container_lb">height 15%</div>
     <!--相应第三个的悬浮-->
     <div></div>
 </div>
