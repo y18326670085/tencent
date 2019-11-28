@@ -4,6 +4,42 @@
     <list default="true" id="c49a61e2-94e5-436e-a940-afac7c7c68ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container3-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/container3-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container3-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container3.html" beforeDir="false" afterPath="$PROJECT_DIR$/container3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container4.html" beforeDir="false" afterPath="$PROJECT_DIR$/container4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1440.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/brief-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/brief-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/business-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/business-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/i_tri.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/i_tri.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon_arrow_r_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon_arrow_r_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_develop_bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_develop_bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_develop_bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_develop_bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_develop_bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_develop_bg3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_link_1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_link_1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_link_1_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_link_2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_link_2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_link_3_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_link_3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_link_3_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_link_3_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_resp_bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_resp_bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_resp_bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_resp_bg3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/investor-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/investor-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/link_bg_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/link_bg_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/m-brief-ad-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/m-business-ad-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/m-investor-ad-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/m-student-ad-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/media-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/media-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/media_cover_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/media_cover_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/media_cover_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/menu_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/responsibility-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/responsibility-1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tencent.html" beforeDir="false" afterPath="$PROJECT_DIR$/tencent.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,45 +56,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tencent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/container3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1219">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="345">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/container3-1.html">
+        <entry file="file://$PROJECT_DIR$/container4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/container3-2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3772">
-              <caret line="164" column="9" selection-end-line="340" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -76,6 +84,7 @@
     <findStrings>
       <find>videoShow</find>
       <find>container3_right</find>
+      <find>container4</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/container4.html" />
         <option value="$PROJECT_DIR$/codesources/锚链接.html" />
         <option value="$PROJECT_DIR$/flex.html" />
         <option value="$PROJECT_DIR$/tencent_viewport/flex.html" />
@@ -93,7 +101,6 @@
         <option value="$PROJECT_DIR$/container1.html" />
         <option value="$PROJECT_DIR$/container2-1.html" />
         <option value="$PROJECT_DIR$/container2.html" />
-        <option value="$PROJECT_DIR$/container3.html" />
         <option value="$PROJECT_DIR$/codesources/兄弟相邻absolute.html" />
         <option value="$PROJECT_DIR$/codesources/relative_absolute.html" />
         <option value="$PROJECT_DIR$/codesources/aboutlist.html" />
@@ -115,8 +122,10 @@
         <option value="$PROJECT_DIR$/codesources/iframe_content.html" />
         <option value="$PROJECT_DIR$/codesources/iframe_container.html" />
         <option value="$PROJECT_DIR$/container3-2.html" />
-        <option value="$PROJECT_DIR$/tencent.html" />
         <option value="$PROJECT_DIR$/container3-1.html" />
+        <option value="$PROJECT_DIR$/container3.html" />
+        <option value="$PROJECT_DIR$/container4.html" />
+        <option value="$PROJECT_DIR$/tencent.html" />
       </list>
     </option>
   </component>
@@ -146,6 +155,11 @@
               <item name="tencent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tencent" type="462c0819:PsiDirectoryNode" />
               <item name="codesources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tencent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tencent" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,18 +225,18 @@
       <workItem from="1574850362429" duration="9193000" />
       <workItem from="1574899490533" duration="562000" />
       <workItem from="1574903994183" duration="9122000" />
-      <workItem from="1574938403348" duration="1199000" />
+      <workItem from="1574938403348" duration="3102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151945000" />
+    <option name="totallyTimeSpent" value="153848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -444,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/container4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tecent_teacher.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -493,20 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tencent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/container3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/container3-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3772">
@@ -521,13 +514,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/container3-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="207">
+          <caret line="417" column="28" lean-forward="true" selection-end-line="553" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="553" column="7" selection-start-line="553" selection-start-column="7" selection-end-line="553" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tencent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>

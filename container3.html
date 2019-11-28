@@ -4,102 +4,550 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        *{margin: 0;padding: 0;}
-        #container3{
-            width: 100%;
-            height: 780px;
-            /*background-color: wheat;*/
-        }
-        #container3>#left{
-            width: 30%;
-            height: 100%;
-            background-color: snow;
-            float: left;
-        }
-        #container3>#left>#left1{
-            width: 100%;
-            height: 33.3%;
-            color:white;
-            background-color: black;
-            padding-top: 50px;
-        }
-        #container3>#left>#left1>p{
-            border-left: blue solid 5px;
-            padding-left: 20px;
-            -webkit-transition: all 2s;
-            position: relative;
-            left: -180px;
-        }
-        #container3>#left>#left1:hover>p{
-            left: 10px;
-        }
-        #container3>#right{
-            width: 70%;
-            height: 100%;
-            float: right;
+        *{margin: 0;padding: 0; box-sizing: border-box; }
+        a{
+            text-decoration: none;
             color: white;
         }
-        #container3>#right>#tl{
+        #container{
+            width: 100%;
+            height: 900px;
+            background-color: wheat;
+            overflow: hidden;
+            /*position的absolute和relative一定要配合使用*/
+            position: relative;
+        }
+        #container>div:first-child{
+            width: 30%;
+            height: 33.3%;
+            background-color: black;
+            /*float: left;*/
+        }
+        #container>div:first-child:hover+div,#container>div:nth-child(2):hover {
+            /*display: none;*/
+            z-index: 1;
+        }
+        #container>div:first-child>a{
+            display: block;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            -webkit-transition: left 2s;
+        }
+        #container>div:first-child>a h3::after{
+            content: "";
+            width: 6px;
+            height: 70px;
+            background-color: #1e52d8;
+            position: absolute;
+            top: 0;
+            left: -20px;
+        }
+        #container>div:first-child:hover a{
+            left: 60px;
+        }
+
+        #container>div:nth-child(2){
+            width: 70%;
+            height: 100%;
+            background-color: #c3c3c3;
+            position: absolute;
+            top: 0;
+            right: 0;
+            /*display: none;*/
+            /*display: flex;*/
+            color: white;
+        }
+        #container>div:nth-child(2)>div:first-child{
             width: 50%;
             height: 50%;
-            /*background-color: cornflowerblue;*/
             float: left;
-            background-image: url("images/index_resp_bg3.jpg") ;
-            background-position: center;
-            background-repeat: no-repeat;
+            background-image: url("images/index_link_1_1.jpg");
+            background-size: 100% 100%;
             /*background-size: contain;*/
-            background-size: 100% auto;
+            /*border: #d12340 solid 1px;*/
+            overflow: hidden;
         }
-        #container3>#right>#tl>div{
-            -webkit-transition: padding-top 2s;
-            padding-top: 260px;
-            margin-left: 50px;
+        #container>div:nth-child(2)>div:first-child:hover div{
+            top: 300px;
         }
-        #container3>#right>#tl:hover>div{
-            padding-top: 200px;
+        #container>div:nth-child(2)>div:first-child div{
+            width: 300px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
         }
-        #container3>#right>#tr{
+        #container>div:nth-child(2)>div:first-child div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(2)>div:first-child div p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(2)>div:nth-child(2){
             width: 50%;
             height: 50%;
-            background-color: rosybrown;
-            float: left;
+            float: right;
+            background-image: url("images/index_link_1_2.jpg");
+            background-size: 100% 100%;
+            color: white;
+            /*border: #ffff99 solid 1px;*/
+            overflow: hidden;
         }
-        #container3>#right>#bl{
+        #container>div:nth-child(2)>div:nth-child(2) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(2)>div:nth-child(2):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(2)>div:nth-child(2) div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(2)>div:nth-child(2) div p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(2)>div:nth-child(3){
             width: 50%;
             height: 50%;
-            background-color: navajowhite;
             float: left;
+            /*border: #1e52d8 solid 1px;*/
+            overflow: hidden;
+            background-image: url("images/index_link_1_3.jpg");
+            background-size: 100% 100%;
+            color: white;
         }
-        #container3>#right>#br{
+        #container>div:nth-child(2)>div:nth-child(3) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(2)>div:nth-child(3):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(2)>div:nth-child(3) div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(2)>div:nth-child(3) div p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(2)>div:nth-child(4){
             width: 50%;
             height: 50%;
-            background-color: darkgreen;
+            float: right;
+            /*border: #111111 solid 1px;*/
+            background-image: url("images/index_link_1_4.jpg");
+            background-size: 100% 100%;
+            color: white;
+        }
+        #container>div:nth-child(2)>div:nth-child(4) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(2)>div:nth-child(4):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(2)>div:nth-child(4) div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(2)>div:nth-child(4) div p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(3){
+            width: 30%;
+            height: 33.3%;
+            background-color: black;
+        }
+        #container_lt_brother>div:nth-child(3){
+            background-image: url("images/index_link_1_3.png");
+            background-size: 100% 100%;
+        }
+        #container>div:nth-child(3):hover+div,#container>div:nth-child(4):hover {
+            /*display: none;*/
+            z-index: 1;
+        }
+        #container>div:nth-child(3)>a{
+            display: block;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            -webkit-transition: left 2s;
+        }
+        #container>div:nth-child(3)>a h3::after{
+            content: "";
+            width: 6px;
+            height: 70px;
+            background-color: #1e52d8;
+            position: absolute;
+            top: 0;
+            left: -20px;
+        }
+        #container>div:nth-child(3):hover a{
+            left: 60px;
+        }
+        #container>div:nth-child(3):hover+div{
+            z-index: 1;
+        }
+        #container>div:nth-child(4){
+            width: 70%;
+            height: 100%;
+            background-color: #ffff99;
+            position: absolute;
+            top: 0;
+            right: 0;
+            /*display: none;*/
+            overflow: hidden;
+        }
+        #container>div:nth-child(4)>div:first-child{
+            width: 50%;
+            height: 50%;
             float: left;
+            /*border: #d12340 solid 1px;*/
+            overflow: hidden;
+            background-image: url("images/index_link_2_1.jpg");
+            background-size: 100% 100%;
+            color: white;
+        }
+        #container>div:nth-child(4)>div:first-child:hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(4)>div:first-child div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(4)>div:first-child div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(4)>div:first-child div p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(4)>div:nth-child(2){
+            width: 50%;
+            height: 50%;
+            float: right;
+            /*border: #ffff99 solid 1px;*/
+            overflow: hidden;
+            background-image: url("images/index_link_2_2.jpg");
+            background-size: 100% 100%;
+            color: white;
+        }
+        #container>div:nth-child(4)>div:nth-child(2):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(4)>div:nth-child(2) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(4)>div:nth-child(2) div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(4)>div:nth-child(2) div p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(4)>div:nth-child(3){
+            width: 100%;
+            height: 50%;
+            float: left;
+            /*border: #1e52d8 solid 1px;*/
+            background-image: url("images/link_bg_2.jpg");
+            background-size: 100% 100%;
+            color: white;
+        }
+        #container>div:nth-child(4)>div:nth-child(3) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(4)>div:nth-child(3):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(4)>div:nth-child(3) div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(4)>div:nth-child(3) div p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(5){
+            width: 30%;
+            height: 33.4%;
+            background-color: black;
+        }
+        #container>div:nth-child(5):hover+div {
+            /*display: none;*/
+        }
+        #container>div:nth-child(5)>a{
+            display: block;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            -webkit-transition: left 2s;
+        }
+        #container>div:nth-child(5)>a h3::after{
+            content: "";
+            width: 6px;
+            height: 70px;
+            background-color: #1e52d8;
+            position: absolute;
+            top: 0;
+            left: -20px;
+        }
+        #container>div:nth-child(5):hover a{
+            left: 60px;
+        }
+        #container>div:nth-child(6){
+            width: 70%;
+            height: 100%;
+            background-color: #c3c3c3;
+            position: absolute;
+            top: 0;
+            right: 0;
+            /*display: none;*/
+            overflow: hidden;
+        }
+        #container>div:nth-child(6)>div:first-child{
+            width: 50%;
+            height: 50%;
+            /*border: #111111 solid 1px;*/
+            float: left;
+            overflow: hidden;
+            background-image: url("images/index_link_3_1.jpg");
+            background-size: 100% 100%;
+            color: white;
+        }
+        #container>div:nth-child(6)>div:first-child div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(6)>div:first-child:hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(6)>div:first-child div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(6)>div:first-child div p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(6)>div:nth-child(2){
+            width: 50%;
+            height: 50%;
+            /*border: #111111 solid 1px;*/
+            float: left;
+            overflow: hidden;
+            background-image: url("images/index_link_3_2.jpg");
+            background-size: 100% 100%;
+            color: white;
+        }
+        #container>div:nth-child(6)>div:nth-child(2):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(6)>div:nth-child(2) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(6)>div:nth-child(2) h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(6)>div:nth-child(2) p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(6)>div:nth-child(3){
+            width: 50%;
+            height: 50%;
+            /*border: #111111 solid 1px;*/
+            float: left;
+            overflow: hidden;
+            background-image: url("images/index_link_3_3.jpg");
+            background-size: 100% 100%;
+            color: white;
+        }
+        #container>div:nth-child(6)>div:nth-child(3):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(6)>div:nth-child(3) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(6)>div:nth-child(3) h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(6)>div:nth-child(3) p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        #container>div:nth-child(6)>div:nth-child(4){
+            width: 50%;
+            height: 50%;
+            /*border: #111111 solid 1px;*/
+            float: left;
+            overflow: hidden;
+            background-image: url("images/index_link_3_4.jpg");
+            background-size: 100% 100%;
+            color: white;
+        }
+        #container>div:nth-child(6)>div:nth-child(4):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(6)>div:nth-child(4) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(6)>div:nth-child(4) h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(6)>div:nth-child(4) p{
+            font-size: 14px;
+            line-height: 25px;
         }
     </style>
 </head>
 <body>
-<div id="container3">
-    <div id="left">
-        <div id="left1">
-            <p>
-                <span>连接用户与生活</span><br>
-                <span>让生活更便捷更多彩</span><br>
-                <img src="images/icon_arrow_r_s.png" width="60px" height="20px">
-            </p>
-        </div>
+<div id="container">
+    <div id="container_lt">
+        <a href="#">
+            <h3>连接用户与生活</h3><br>
+            <p>让生活更便捷多彩</p>
+            <img src="images/icon_arrow_r_s.png" width="54px" height="16px" style="margin-top: 30px">
+        </a>
     </div>
-    <div id="right">
-        <div id="tl">
+    <!--相应第一个的悬浮-->
+    <!--<div>height 100% <br> 后面有悬浮 container设置属性relative</div>-->
+    <div><!-- nth-child(2) -->
+        <div>
             <div>
-                <span>腾讯广告营销</span><br><br>
-                <span>大数据营销平台，汇聚腾讯全量应用场景，提供一体化</span><br>
-                <span>数字化营销方案。</span>
+                <h4>通信与社交</h4>
+                <p>连接人与人，提供功能丰富的即时通信和社交<br>平台，让沟通更便捷。</p>
             </div>
         </div>
-        <div id="tr"></div>
-        <div id="bl"></div>
-        <div id="br"></div>
+        <div><!-- nth-child(2)>div:nth-child(2) -->
+            <div>
+                <h4>数字内容</h4>
+                <p>基于优质内容，以技术为驱动引擎，探索社交和内容融<br>合的下一代形态。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>金融科技服务</h4>
+                <p>连接用户、商户和金融机构，提供安全、专业、便捷的<br>金融产品与服务。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>工具</h4>
+                <p>提供多种工具性软件，帮助用户快速直接解决各项具体需求。</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="container_m"><!-- nth-child(3) -->
+        <a href="#">
+            <h3>连接企业与科技</h3><br>
+            <p>数字化助手，助力产业升级</p>
+            <img src="images/icon_arrow_r_s.png" width="54px" height="16px" style="margin-top: 30px">
+        </a>
+    </div>
+    <!--相应第二个的悬浮-->
+    <div id="container_m_brother"><!-- nth-child(4) -->
+        <div>
+            <div>
+                <h4>腾讯广告营销</h4>
+                <p>大数据营销平台，汇聚腾讯全量应用场景，提供一体<br>化数字化营销方案。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>腾讯云</h4>
+                <p>提供领先的云产品与云服务，辅助企业走向数字化和全球化。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>智慧产业</h4>
+                <p>通过云、AI、大数据分析、安全、支付、小程序、LBS等互联网前沿技术和产品，<br>打造智慧产业方案，助力产业数字化升级。</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="container_lb"><!-- nth-child(5) -->
+        <a href="#">
+            <h3>连接现在与未来</h3><br>
+            <p>探索面向未来的创新科技</p>
+            <img src="images/icon_arrow_r_s.png" width="54px" height="16px" style="margin-top: 30px">
+        </a>
+    </div>
+    <!--相应第三个的悬浮-->
+    <div><!-- nth-child(6) -->
+        <div>
+            <div>
+                <h4>人工智能</h4>
+                <p>运用多种技术资产，提升人工智能实力，惠及人类和世<br>界。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>物联网</h4>
+                <p>通过腾讯云物联网，致力提供IoT全栈产品和解决方案。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>多媒体</h4>
+                <p>腾讯多媒体实验室专注音视频通信技术的前瞻性研究。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>腾讯探索</h4>
+                <p>携手合作伙伴探索未来和相关技术，帮助全球<br>在食物、能源和水源方面的挑战。</p>
+            </div>
+        </div>
     </div>
 </div>
 </body>
