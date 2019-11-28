@@ -6,26 +6,37 @@
     <style>
         *{margin: 0;padding: 0; box-sizing: border-box;}
         #container4{
-            width: 100%;
+            width: 1600px;
             height: 600px;
         }
-        #container4>#left{
-            width: 50%;
+        #container4>div:first-child{
+            width: 40%;
             height: 100%;
             /*background-color: silver;*/
             float: left;
             background-image: url("images/index_resp_bg3.jpg");
             background-position: center;
             background-size: 100% 100%;
-            animation:mymove 5s infinite;
+            animation:mymove 9s infinite;
         }
-        #container4>#right{
-            width: 50%;
+        #container4>div:first-child:after{
+            content: "";
+            border-style: solid;
+            border-width: 0px 0px 605px 100px;
+            border-color: transparent transparent white transparent;
+            /*width: 0px;*/
+            /*height: 0px;*/
+            position: relative;
+            top: -25px;
+            left: 540px;
+        }
+        #container4>div:last-child{
+            width: 60%;
             height: 100%;
             /*background-color: peachpuff;*/
             float: right
         }
-        #container4>#right>div{
+        #container4>div:last-child>div{
             padding-top: 200px;
             padding-left: 120px;
         }
@@ -33,21 +44,22 @@
         {
 /*            from {background-image: url("images/index_resp_bg3.jpg");}
             to {background-image: url("images/index_resp_bg1.jpg");}*/
-            0%   {background-image: url("images/index_resp_bg3.jpg");}
-            50%  {background-image: url("images/index_resp_bg1.jpg");}
-            100% {background-image: url("images/index_resp_bg3.jpg");}
+            0%   {background-image: url("images/index_resp_bg1.jpg");}
+            33%  {background-image: url("images/index_resp_bg2.jpg");}
+            66% {background-image: url("images/index_resp_bg3.jpg");}
+            100%   {background-image: url("images/index_resp_bg1.jpg");}
         }
 
     </style>
 </head>
 <body>
 <div id="container4">
-    <div id="left"></div>
-    <div id="right">
+    <div></div>
+    <div>
         <div>
             <h3>连接<br>责任与信任</h3><br>
             <p>聚合微小善行，以科技让世界更美好</p><br><br>
-            <p>---------------></p>
+            <img src="images/icon_arrow_r_dark.png" width="38px" height="16px">
         </div>
     </div>
 </div>

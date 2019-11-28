@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49a61e2-94e5-436e-a940-afac7c7c68ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/codesources/triangle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container3-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/container3-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container3-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/container3.html" beforeDir="false" afterPath="$PROJECT_DIR$/container3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container4.html" beforeDir="false" afterPath="$PROJECT_DIR$/container4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1440.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/banner_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brief-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/brief-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/business-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/business-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/i_tri.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/i_tri.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon_arrow_r_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon_arrow_r_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_develop_bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_develop_bg1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_develop_bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_develop_bg2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_develop_bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_develop_bg3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_link_1_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_link_1_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_link_1_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_link_2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_link_2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_link_3_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_link_3_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_link_3_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_link_3_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_resp_bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_resp_bg1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_resp_bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/index_resp_bg3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/investor-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/investor-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/link_bg_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/link_bg_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/m-brief-ad-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/m-business-ad-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/m-investor-ad-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/m-student-ad-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/media-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/media-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/media_cover_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/media_cover_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/media_cover_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/menu_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/responsibility-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/responsibility-1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tencent.html" beforeDir="false" afterPath="$PROJECT_DIR$/tencent.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -53,20 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tencent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="322">
+              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/container4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="184">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codesources/triangle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="11" column="24" selection-start-line="7" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -124,6 +98,7 @@
         <option value="$PROJECT_DIR$/container3-2.html" />
         <option value="$PROJECT_DIR$/container3-1.html" />
         <option value="$PROJECT_DIR$/container3.html" />
+        <option value="$PROJECT_DIR$/codesources/triangle.html" />
         <option value="$PROJECT_DIR$/container4.html" />
         <option value="$PROJECT_DIR$/tencent.html" />
       </list>
@@ -225,12 +200,12 @@
       <workItem from="1574850362429" duration="9193000" />
       <workItem from="1574899490533" duration="562000" />
       <workItem from="1574903994183" duration="9122000" />
-      <workItem from="1574938403348" duration="3102000" />
+      <workItem from="1574938403348" duration="5731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153848000" />
+    <option name="totallyTimeSpent" value="156477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -536,17 +511,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tencent.html">
+    <entry file="file://$PROJECT_DIR$/codesources/triangle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="230">
+          <caret line="11" column="24" selection-start-line="7" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/container4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="184">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tencent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
         </state>
       </provider>
     </entry>
