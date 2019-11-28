@@ -240,12 +240,49 @@
             height: 50%;
             float: right;
             border: #ffff99 solid 1px;
+            overflow: hidden;
+        }
+        #container>div:nth-child(4)>div:nth-child(2):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(4)>div:nth-child(2) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(4)>div:nth-child(2) div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(4)>div:nth-child(2) div p{
+            font-size: 14px;
+            line-height: 25px;
         }
         #container>div:nth-child(4)>div:nth-child(3){
             width: 100%;
             height: 50%;
             float: left;
             border: #1e52d8 solid 1px;
+        }
+        #container>div:nth-child(4)>div:nth-child(3) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(4)>div:nth-child(3):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(4)>div:nth-child(3) div h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(4)>div:nth-child(3) div p{
+            font-size: 14px;
+            line-height: 25px;
         }
         #container>div:nth-child(5){
             width: 30%;
@@ -289,7 +326,7 @@
             height: 50%;
             border: #111111 solid 1px;
             float: left;
-            /*overflow: hidden;*/
+            overflow: hidden;
         }
         #container>div:nth-child(6)>div:first-child div{
             width: 350px;
@@ -314,18 +351,75 @@
             height: 50%;
             border: #111111 solid 1px;
             float: left;
+            overflow: hidden;
+        }
+        #container>div:nth-child(6)>div:nth-child(2):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(6)>div:nth-child(2) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(6)>div:nth-child(2) h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(6)>div:nth-child(2) p{
+            font-size: 14px;
+            line-height: 25px;
         }
         #container>div:nth-child(6)>div:nth-child(3){
             width: 50%;
             height: 50%;
             border: #111111 solid 1px;
             float: left;
+            overflow: hidden;
+        }
+        #container>div:nth-child(6)>div:nth-child(3):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(6)>div:nth-child(3) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(6)>div:nth-child(3) h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(6)>div:nth-child(3) p{
+            font-size: 14px;
+            line-height: 25px;
         }
         #container>div:nth-child(6)>div:nth-child(4){
             width: 50%;
             height: 50%;
             border: #111111 solid 1px;
             float: left;
+            overflow: hidden;
+        }
+        #container>div:nth-child(6)>div:nth-child(4):hover div{
+            top: 300px;
+        }
+        #container>div:nth-child(6)>div:nth-child(4) div{
+            width: 350px;
+            height: 150px;
+            position: relative;
+            top: 400px;
+            -webkit-transition: top 3s;
+        }
+        #container>div:nth-child(6)>div:nth-child(4) h4{
+            font-size: 20px;
+            line-height: 50px;
+        }
+        #container>div:nth-child(6)>div:nth-child(4) p{
+            font-size: 14px;
+            line-height: 25px;
         }
     </style>
 </head>
@@ -375,15 +469,25 @@
         </a>
     </div>
     <!--相应第二个的悬浮-->
-    <div id="container_m_brother">
+    <div id="container_m_brother"><!-- nth-child(4) -->
         <div>
             <div>
                 <h4>腾讯广告营销</h4>
                 <p>大数据营销平台，汇聚腾讯全量应用场景，提供一体<br>化数字化营销方案。</p>
             </div>
         </div>
-        <div>container_m flex item 2</div>
-        <div>container_m flex item 3</div>
+        <div>
+            <div>
+                <h4>腾讯云</h4>
+                <p>提供领先的云产品与云服务，辅助企业走向数字化和全球化。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>智慧产业</h4>
+                <p>通过云、AI、大数据分析、安全、支付、小程序、LBS等互联网前沿技术和产品，<br>打造智慧产业方案，助力产业数字化升级。</p>
+            </div>
+        </div>
     </div>
 
     <div id="container_lb"><!-- nth-child(5) -->
@@ -394,18 +498,32 @@
         </a>
     </div>
     <!--相应第三个的悬浮-->
-    <div>
+    <div><!-- nth-child(6) -->
         <div>
             <div>
                 <h4>人工智能</h4>
                 <p>运用多种技术资产，提升人工智能实力，惠及人类和世<br>界。</p>
             </div>
         </div>
-        <div>container_lb flex item 2</div>
-        <div>container_lb flex item 3</div>
-        <div>container_lb flex item 4</div>
+        <div>
+            <div>
+                <h4>物联网</h4>
+                <p>通过腾讯云物联网，致力提供IoT全栈产品和解决方案。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>多媒体</h4>
+                <p>腾讯多媒体实验室专注音视频通信技术的前瞻性研究。</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>腾讯探索</h4>
+                <p>携手合作伙伴探索未来和相关技术，帮助全球<br>在食物、能源和水源方面的挑战。</p>
+            </div>
+        </div>
     </div>
 </div>
-
 </body>
 </html>
