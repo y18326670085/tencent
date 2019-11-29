@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        a{text-decoration: none}
+        #container3{
+            width: 1200px;
+            height: 618px;
+            border: #111111 solid 1px;
+        }
+        #container3>div:first-child{
+            overflow: hidden;
+            margin-bottom: 30px;
+            padding-top: 20px;
+        }
+        #container3>div:first-child h3{
+            float: left;
+            font-size: 30px;
+            color: #2a2e2e;
+        }
+        #container3>div:first-child a{
+            float: right;
+            position: relative;
+            right: 44px;
+            font-size: 16px;
+            color: #5F6464;
+            font-weight: bold;
+        }
+        #container3>div:first-child a:after{
+            content: '';
+            /*border: 1px solid red;*/
+            background: url('images/chevron-right-b2.png') no-repeat top left /32px 16px;/*兼容没测*/
+            position: absolute;
+            top: 3px;
+            /*z-index: 1;*/
+            width: 32px;
+            height: 16px;
+        }
+        #container3>div:nth-child(2){
+            width: 594px;
+            height: 332px;
+            border: #EFEFEF solid 1px;
+            float: left;
+        }
+        #container3>div:nth-child(2) h4{
+            width: 509px;
+            line-height: 25px;
+            padding-left: 32px;
+            color: #5f6464;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        #container3>div:nth-child(2) p:first-of-type{
+            padding-left: 32px;
+            margin-top: 30px;
+            position: relative;
+        }
+/*        #container3>div:nth-child(2) p:first-of-type:hover{
+            border-left: #1e52d8 solid 5px;
+        }*/
+        #container3>div:nth-child(2) p:first-of-type::after{
+            content: "";
+            width: 5px;
+            height: 50px;
+            background-color: #1e52d8;
+            position: absolute;
+            top: 5px;
+            left: 0px;
+            display: none;
+        }
+        #container3>div:nth-child(2) p:first-of-type:hover:after{
+            display: block;
+        }
+        #container3>div:nth-child(2) p:first-of-type span:first-of-type{
+            line-height: 30px;
+            margin-bottom: 4px;
+            font-size: 20px;
+            color: #2A2E2E;
+            font-weight: bold;
+        }
+        #container3>div:nth-child(2) p:first-of-type span:nth-of-type(2){
+            font-size: 16px;
+            color: #919797;
+            line-height: 29px;
+        }
+        #container3>div:nth-child(3){
+            width: 594px;
+            height: 332px;
+            border: #EFEFEF solid 1px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div id="container3">
+    <div>
+        <h3>财务新闻</h3>
+        <a href="#">查看全部</a>
+    </div>
+    <div><!--div:nth-child(2)-->
+        <h4>业绩新闻</h4>
+        <p>
+            <span>腾讯公布二零一九年第三季度业绩</span><br>
+            <span>2019.11.13</span>
+        </p>
+    </div>
+    <div></div>
+</div>
+</body>
+</html>

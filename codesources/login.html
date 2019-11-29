@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        a{
+            text-decoration: none;
+        }
+        #container{
+            margin-left: 350px;
+            margin-top: 100px;
+        }
+        form{
+            width: 800px;
+            /*border: #111111 solid 1px;*/
+        }
+        #container form>div{
+            margin-bottom: 30px;
+        }
+        #container form p:first-of-type{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        #container form p:first-of-type:after{
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 15px solid transparent;
+            border-right: 30px solid white;
+            border-bottom: 15px solid transparent;
+            position: absolute;
+            right: 0px;
+        }
+        #container form p:nth-of-type(2){
+            background-color: #c3c3c3;
+            width: 400px;
+            font-size: 12px;
+            position: relative;
+            left: 100px;
+            line-height: 22px;
+        }
+        #container form div:nth-of-type(6){
+            /*border: #111111 solid 1px;*/
+            font-size: 12px;
+            width: 600px;
+            line-height: 30px;
+            margin-top: 30px;
+            position: relative;
+            left: 30px;
+            border-top: #999999 solid 1px;
+            padding-top: 10px;
+            padding-left: 30px;
+        }
+        #container form>input{
+            width: 200px;
+            height: 30px;
+            background-color: #758aff;
+            position: relative;
+            left: 200px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <form>
+        <div>
+            <sapn style="width: 100px; line-height: 30px; display: inline-block; text-align: right">邮箱名</sapn>
+            <input type="text" style="width: 300px; height: 30px;" autofocus placeholder="请输入由数字和字母组成的名称" required/>
+            <!--<span style="display: inline-block; height: 30px; background-color: #999999">@vip.sina.com</span>-->
+            <button disabled style="height: 30px; width: 100px; position: relative; left: -5px">@vip.sina.com</button>
+        </div>
+        <div>
+            <sapn style="width: 100px; line-height: 30px; display: inline-block; text-align: right">登录密码</sapn>
+            <input type="text" style="width: 300px; height: 30px" required/>
+        </div>
+        <div>
+            <sapn style="width: 100px; line-height: 30px; display: inline-block; text-align: right">再次输入密码</sapn>
+            <input type="text" style="width: 300px; height: 30px" required/>
+        </div>
+
+        <p style="width: 200px; line-height: 30px; background-color: #01B4EE; text-align: center; position: relative; left:-50px;">邮箱安全保护</p>
+
+        <div>
+            <sapn style="width: 100px; line-height: 30px; display: inline-block; text-align: right">手机号码</sapn>
+            <input list="numlist" type="text" style="width: 300px; height: 30px" required/>
+            <datalist id="numlist">
+                <option value="15399586619">
+                <option value="15188669966">
+                <option value="13855689968">
+            </datalist>
+        </div>
+        <div>
+            <sapn style="width: 100px; line-height: 30px; display: inline-block; text-align: right">短信验证码</sapn>
+            <input type="text" style="width: 300px; height: 30px" required/>
+            <button disabled style="height: 30px; width: 150px">免费获取短信验证码</button>
+        </div>
+
+        <p>
+            <span>1.绑定手机，账户更安全并可尊享更多VIP优先服务</span><br>
+            <span>2.新浪公司承诺不会对外泄露您的手机号码及用于其它任何商业用途。</span>
+        </p>
+
+        <div>
+            <input type="checkbox" checked/>我已阅读并接受
+            <a href="#">《新浪网络使用服务协议》</a>,
+            <a herf="#">《新浪个人信息保护政策》</a>和
+            <a href="#">《新浪VIP邮箱服务条款》</a>
+        </div>
+        <input type="submit" value="立即注册" />
+    </form>
+</div>
+
+</body>
+</html>

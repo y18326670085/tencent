@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        a{
+            text-decoration: none;
+            color: #111111;
+        }
+        #container3{
+            width: 1200px;
+            height: 715px;
+            /*border: #111111 solid 1px;*/
+            overflow: hidden;
+        }
+        #container3>div:first-child{
+            overflow: hidden;
+            margin-bottom: 30px;
+            padding-top: 20px;
+        }
+        #container3>div:first-child h3{
+            float: left;
+            font-size: 30px;
+            color: #2a2e2e;
+        }
+        #container3>div:first-child a{
+            float: right;
+            position: relative;
+            right: 44px;
+            font-size: 16px;
+            color: #5F6464;
+            font-weight: bold;
+        }
+        #container3>div:first-child a:after{
+            content: '';
+            /*border: 1px solid red;*/
+            background: url('images/chevron-right-b2.png') no-repeat top left /32px 16px;/*兼容没测*/
+            position: absolute;
+            top: 3px;
+            /*z-index: 1;*/
+            width: 32px;
+            height: 16px;
+        }
+        #container3>div:nth-child(2){
+            border: #1e52d8 solid 1px;
+            width: 380px;
+            height: 600px;
+            margin-right: 20px;
+            float: left;
+        }
+        #container3>div:nth-child(2) img{
+            width: 380px;
+            height: 256px;
+            margin-bottom: 24px;
+        }
+        #container3>div:nth-child(2) p:nth-of-type(1){
+            color: #2A2E2E;
+            font-size: 20px;
+            line-height: 36px;
+            /*border: #111111 solid 1px;*/
+            width: 352px;
+            height: 72px;
+            font-weight: bold;
+        }
+        #container3>div:nth-child(2) p:nth-of-type(2){
+            width: 352px;
+            height: 58px;
+            color: #2A2E2E;
+            font-size: 16px;
+            line-height: 29px;
+            margin-top: 20px;
+        }
+        #container3>div:nth-child(2) p:nth-of-type(3){
+            width: 352px;
+            height: 28px;
+            color: #919797;
+            font-size: 16px;
+            margin-top: 40px;
+        }
+        #container3>div:nth-child(3){
+            border: #1e52d8 solid 1px;
+            width: 380px;
+            height: 600px;
+            margin-right: 18px;
+            float: left;
+        }
+        #container3>div:nth-child(3) img{
+            width: 380px;
+            height: 256px;
+            margin-bottom: 24px;
+        }
+        #container3>div:nth-child(3) p:first-of-type{
+            color: #2A2E2E;
+            font-size: 20px;
+            line-height: 36px;
+            width: 352px;
+            height: 72px;
+            font-weight: bold;
+        }
+        #container3>div:nth-child(3) p:nth-of-type(2){
+            width: 352px;
+            height: 58px;
+            color: #2A2E2E;
+            font-size: 16px;
+            line-height: 29px;
+            margin-top: 20px;
+        }
+        #container3>div:nth-child(3) p:nth-of-type(3){
+            width: 352px;
+            height: 28px;
+            color: #919797;
+            font-size: 16px;
+            margin-top: 40px;
+        }
+        #container3>div:nth-child(4){
+            border: #1e52d8 solid 1px;
+            width: 380px;
+            height: 600px;
+            margin-right: 20px;
+            float: left;
+        }
+        #container3>div:nth-child(4) img{
+            width: 380px;
+            height: 256px;
+            margin-bottom: 24px;
+        }
+        #container3>div:nth-child(4) p:first-of-type{
+            color: #2A2E2E;
+            font-size: 20px;
+            line-height: 36px;
+            width: 352px;
+            height: 72px;
+            font-weight: bold;
+        }
+        #container3>div:nth-child(4) p:nth-of-type(2){
+            width: 352px;
+            height: 58px;
+            color: #2A2E2E;
+            font-size: 16px;
+            line-height: 29px;
+            margin-top: 20px;
+        }
+        #container3>div:nth-child(4) p:nth-of-type(3){
+            width: 352px;
+            height: 28px;
+            color: #919797;
+            font-size: 16px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+<div id="container2">
+    <div>
+        <h3>企业动态</h3>
+        <a href="#">查看全部</a>
+    </div>
+    <div>
+        <img src="images/2-1.jpg">
+        <p>加速布局无服务器生态，腾讯云与Serverless.com达成全球战略合作</p>
+        <p>截至目前，Serverless.com拥有百万级别的活跃应用程序以及50000+的日下载量。</p>
+        <p>2019.11.06</p>
+    </div>
+    <div><!--div:nth-child(3)-->
+        <img src="images/2-2.png">
+        <p>加速布局无服务器生态，腾讯云与Serverless.com达成全球战略合作</p>
+        <p>截至目前，Serverless.com拥有百万级别的活跃应用程序以及50000+的日下载量。</p>
+        <p>2019.11.04</p>
+    </div>
+    <div>
+        <img src="images/2-3.jpg">
+        <p>从细胞疗法、弦理论到脑芯片 腾讯科学WE大会揭晓微观领域最前沿突破</p>
+        <p>今年腾讯科学WE大会的主题是“小宇宙”，七位全球顶尖科学家同台，分享物理、生命科学、地质科学等领域的突破性进展。</p>
+        <p>2019.11.03</p>
+    </div>
+</div>
+
+</body>
+</html>
