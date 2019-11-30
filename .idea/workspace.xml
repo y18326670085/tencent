@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49a61e2-94e5-436e-a940-afac7c7c68ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/codesources/images/mi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codesources/二级导航.html" beforeDir="false" afterPath="$PROJECT_DIR$/codesources/二级导航.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codesources/二级导航.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+            <state relative-caret-position="276">
+              <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -156,15 +158,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WEB全栈\WEB项目\tencent\codesources" />
-      <recent name="D:\WEB全栈\WEB项目\tencent\tencent_viewport" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WEB全栈\WEB项目\tencent\codesources\images" />
       <recent name="D:\WEB全栈\WEB项目\tencent\tencent_viewport\images" />
       <recent name="D:\WEB全栈\WEB项目\tencent\picture" />
       <recent name="D:\WEB全栈\WEB项目\tencent\codesources" />
       <recent name="D:\WEB全栈\WEB项目\tencent" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WEB全栈\WEB项目\tencent\codesources" />
+      <recent name="D:\WEB全栈\WEB项目\tencent\tencent_viewport" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,18 +214,18 @@
       <workItem from="1574986441815" duration="12043000" />
       <workItem from="1575026920842" duration="6550000" />
       <workItem from="1575092825881" duration="42000" />
-      <workItem from="1575093381304" duration="4525000" />
+      <workItem from="1575093381304" duration="6895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181775000" />
+    <option name="totallyTimeSpent" value="184145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17633928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17633928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -588,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codesources/二级导航.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+        <state relative-caret-position="276">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
         </state>
       </provider>
     </entry>
