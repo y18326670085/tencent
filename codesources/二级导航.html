@@ -56,9 +56,11 @@
             width: 265px;
             height: 76px;
             line-height: 76px;
+            position: absolute;
         }
         .shop-item img{
             vertical-align: middle;
+            margin: 0 20px 0 16px;
         }
     </style>
 </head>
@@ -129,6 +131,33 @@
         </ul>
     </div>
 </div>
+<!--引入JQ 通过CDN加速链接引入-->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js">
+    $(document).ready(function() {
+        console.log("oLi");
+    });
+        /*
+        $(".show-wrap").each(function () {
+            var oLi = $(this).find(".shop-item");//保存需要排列的节点
+            console.log(oLi);
+            var height = oLi.height;
+            var width = oLi.width;
+            var length = oLi.length;
+            var col = Math.ceil(length / 6);//向上取整
+            $(this).width(col * width);//通过个数决定宽度
+
+            oLi.each(function (i) {
+                var x = Math.floor(i / 6);//向下取整
+                var y = i % 6;
+
+                $(this).css({
+                    left: x * width + "px",
+                    top: y * height + "px"
+                });
+            })
+        })*/
+
+</script>
 </body>
 </html>
 
