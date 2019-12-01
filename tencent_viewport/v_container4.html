@@ -4,18 +4,47 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        a{text-decoration: none;}
         #container4{
             width: 1200px;
             height: 479px;
-            background-color: #ffff99;
+            /*background-color: #ffff99;*/
             margin: 0 auto;
+            position: relative;
+        }
+        #container4>div>h3{
+            font-size: 30px;
+            color: #2a2e2e;
+            float: left;
+            line-height: 45px;
+        }
+        #container4>div>p>a{
+            font-size: 16px;
+            color: #5F6464;
+            font-weight: bold;
+            float: right;
+            line-height: 45px;
+        }
+        #container4>p:first-of-type{
+            font-size: 24px;
+            line-height: 43px;
+            color: #FFFFFF;
+            cursor: pointer;
+            position: absolute;
+            bottom: 60px;
+            left: 24px;
         }
     </style>
 </head>
 <body>
 <div id="container4">
-
+    <div>
+        <h3>腾讯视角</h3>
+        <p><a href="#">查看全部 ></a></p>
+    </div>
+    <img src="images/shan.jpg">
+    <p>用户为本，科技向善</p>
 </div>
-
 </body>
 </html>
