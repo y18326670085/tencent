@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49a61e2-94e5-436e-a940-afac7c7c68ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/images/icon_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/images/icon_in_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/images/icon_twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/images/icon_twitter_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/images/icon_wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/images/icon_wechat_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/images/icon_weibo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/images/icon_weibo_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tencent_viewport/v_container6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tencent_viewport/v_container5.html" beforeDir="false" afterPath="$PROJECT_DIR$/tencent_viewport/v_container5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tencent_viewport/viewport.html" beforeDir="false" afterPath="$PROJECT_DIR$/tencent_viewport/viewport.html" afterDir="false" />
     </list>
@@ -19,17 +30,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tencent_viewport/viewport.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="419">
+              <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/head.html">
+        <entry file="file://$PROJECT_DIR$/tencent_viewport/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3312">
-              <caret line="153" selection-start-line="153" selection-end-line="153" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer_bottom.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -37,17 +60,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tencent_viewport/v_container5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4462">
-              <caret line="194" column="6" lean-forward="true" selection-start-line="194" selection-start-column="6" selection-end-line="194" selection-end-column="6" />
+            <state relative-caret-position="-437">
+              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tencent_viewport/v_container5_1.html">
+        <entry file="file://$PROJECT_DIR$/tencent_viewport/v_container6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="117" column="12" lean-forward="true" selection-end-line="197" selection-end-column="7" />
+            <state relative-caret-position="299">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -119,7 +142,9 @@
         <option value="$PROJECT_DIR$/container3.html" />
         <option value="$PROJECT_DIR$/tencent.html" />
         <option value="$PROJECT_DIR$/tencent_viewport/v_container5_1.html" />
+        <option value="$PROJECT_DIR$/tencent_viewport/v_container6.html" />
         <option value="$PROJECT_DIR$/tencent_viewport/v_container5.html" />
+        <option value="$PROJECT_DIR$/tencent_viewport/footer.html" />
         <option value="$PROJECT_DIR$/tencent_viewport/viewport.html" />
       </list>
     </option>
@@ -145,11 +170,6 @@
               <item name="tencent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tencent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tencent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tencent" type="462c0819:PsiDirectoryNode" />
-              <item name="tencent_viewport" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -165,16 +185,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WEB全栈\WEB项目\tencent\codesources" />
-      <recent name="D:\WEB全栈\WEB项目\tencent\tencent_viewport" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WEB全栈\WEB项目\tencent\tencent_viewport\images" />
       <recent name="D:\WEB全栈\WEB项目\tencent\codesources\images" />
       <recent name="D:\WEB全栈\WEB项目\tencent\picture" />
       <recent name="D:\WEB全栈\WEB项目\tencent\codesources" />
       <recent name="D:\WEB全栈\WEB项目\tencent" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WEB全栈\WEB项目\tencent\codesources" />
+      <recent name="D:\WEB全栈\WEB项目\tencent\tencent_viewport" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,18 +245,18 @@
       <workItem from="1575165079585" duration="485000" />
       <workItem from="1575196998818" duration="7427000" />
       <workItem from="1575245082090" duration="9119000" />
-      <workItem from="1575257553786" duration="7696000" />
+      <workItem from="1575257553786" duration="9840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212999000" />
+    <option name="totallyTimeSpent" value="215143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17633928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17633928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -278,18 +298,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/media_cover_1.jpg" />
-    <entry file="file://$PROJECT_DIR$/tencent_viewport/flex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/container1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -541,13 +549,6 @@
     <entry file="file://$PROJECT_DIR$/tencent_viewport/images/icon-2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer_top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/container3-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -557,20 +558,6 @@
             <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer_bottom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer_middle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -617,17 +604,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tencent_viewport/v_container6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tencent_viewport/v_container5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4462">
-          <caret line="194" column="6" lean-forward="true" selection-start-line="194" selection-start-column="6" selection-end-line="194" selection-end-column="6" />
+        <state relative-caret-position="-437">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer_top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer_middle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer_bottom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tencent_viewport/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tencent_viewport/viewport.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="419">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
         </state>
       </provider>
     </entry>

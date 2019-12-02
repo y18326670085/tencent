@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        #footer{
+            width: 1200px;
+            margin: 0 auto;
+            height: 419px;
+            /*border: #111111 solid 1px;*/
+        }
+        #footer_top{
+            width: 1200px;
+            /*height: 89px;*/
+            margin: 0 auto;
+            margin-bottom: 20px;
+            overflow: hidden;
+            color: #5f6464;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: #999999 solid 1px;
+        }
+        #footer_top ul li{
+            list-style-type: none;
+            float: left;
+            margin-right: 28px;
+            width: 30px;
+            height: 30px;
+        }
+        #footer_top h3{
+            float: left;
+            font-size: 20px;
+            font-weight: normal;
+            margin-right: 33px;
+            margin-top: 3px;
+        }
+        #footer_top ul{
+            float: left;
+        }
+        #footer_top ul li img{
+            width: 30px;
+            height: 30px;
+        }
+        #footer_top ul li>img:first-child{
+            position: absolute;
+        }
+        #footer_top ul li>img:first-child:hover+img{
+            position: absolute;
+            z-index: 1;
+        }
+        /*#footer_middle----------------------------------------------*/
+        #footer_middle{
+            width: 1200px;
+            height: 300px;
+            margin: 0 auto;
+            color: #5f6464;
+            overflow: hidden;
+        }
+        #footer_middle>div{
+            float: left;
+            width: 216px;
+        }
+        #footer_middle>div h3{
+            font-size: 20px;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+        #footer_middle div ul li{
+            list-style-type: none;
+            font-size: 16px;
+            /*border: #111111 solid 1px;*/
+            /*margin-bottom: 18px;*/
+        }
+        #footer_middle div ul li a{
+            text-decoration: none;
+            color: #5f6464;
+        }
+        #footer_middle img{
+            width: 200px;
+            height: 30px;
+            float: right;
+            position: relative;
+            top: 100px;
+            right: 100px;
+        }
+        /*#footer_bottom----------------------------------------------*/
+        #footer_bottom {
+            width: 1200px;
+            margin: 0 auto;
+            height: 30px;
+            overflow: hidden;
+        }
+        #footer_bottom ul{
+            overflow: hidden;
+            position: relative;
+            float: left;
+        }
+        #footer_bottom ul li{
+            list-style-type: none;
+            float: left;
+            font-size: 14px;
+            margin-right: 20px;
+        }
+        #footer_bottom p{
+            float: right;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<div id="footer">
+    <div id="footer_top">
+        <h3>关注我们</h3>
+        <ul>
+            <li>
+                <img src="images/icon_wechat.png">
+                <img src="images/icon_wechat_hover.png">
+            </li>
+            <li>
+                <img src="images/icon_weibo.png">
+                <img src="images/icon_weibo_hover.png">
+            </li>
+            <li>
+                <img src="images/icon_twitter.png">
+                <img src="images/icon_twitter_hover.png">
+            </li>
+            <li>
+                <img src="images/icon_in_hover.png">
+                <img src="images/icon_in_hover.png">
+            </li>
+        </ul>
+    </div>
+    <div id="footer_middle">
+        <div>
+            <h3>加入我们</h3>
+            <ul>
+                <li><a href="#">社会招聘</a></li>
+                <li><a href="#">校园招聘</a></li>
+                <li><a href="#">国际招聘</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>联系我们</h3>
+            <ul>
+                <li><a href="#">客服服务</a></li>
+                <li><a href="#">合作洽谈</a></li>
+                <li><a href="#">腾讯采购</a></li>
+                <li><a href="#">媒体及投资者</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>法律信息</h3>
+            <ul>
+                <li><a href="#">服务协议</a></li>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">知识产权</a></li>
+            </ul>
+        </div>
+        <img src="images/tencent_logo.png">
+    </div>
+    <div id="footer_bottom">
+        <ul>
+            <li>法律声明</li>
+            <li>阳光准则</li>
+            <li>网站地图</li>
+            <li>粤网文【2017】6138-1456号</li>
+        </ul>
+        <p>Copyright © 1998 - 2019 Tencent. All Rights Reserved. </p>
+    </div>
+</div>
+</body>
+</html>
