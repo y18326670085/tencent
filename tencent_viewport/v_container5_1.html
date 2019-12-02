@@ -5,12 +5,30 @@
     <title>媒体资料库</title>
     <style>
         *{margin: 0;padding: 0; box-sizing: border-box;}
+        #container5{
+            width: 1200px;
+            height: 738px;
+            margin: 0 auto;
+            /*background-color: #ffff99;*/
+            border: #111111 solid 1px;
+        }
+        #container5 h3{
+            font-size: 30px;
+            color: #2a2e2e;
+            line-height: 50px;
+        }
+        #container5>ul{
+            position: relative;
+            /*overflow: hidden;*/
+        }
         td{
-            border: #1e52d8 solid 1px;
-            width: 176px;
-            height: 174px;
+            /*border: #1e52d8 solid 1px;*/
+            width: 282px;
+            height: 195px;
             text-align: center;
             vertical-align: top;
+            padding-right: 10px;
+            padding-bottom: 10px;
         }
         #container5>ul>li{
             list-style-type: none;
@@ -30,16 +48,6 @@
         #container5>ul>li:hover>table{
             z-index: 1;
         }
-        #container5{
-            width: 1200px;
-            height: 738px;
-            margin: 0 auto;
-            /*background-color: #ffff99;*/
-            border: #111111 solid 1px;
-        }
-        #container5>ul{
-            position: relative;
-        }
         .icon{
             vertical-align: middle;
             width: 60px;
@@ -48,19 +56,18 @@
         #container5>ul>li>table{
             width: 1200px;
             height: 495px;
-            background-color: #ffff99;
+            background-color: white;
             /*list-style-type: none;*/
             position: absolute;
             top: 174px;
             left: 0px;
         }
-        .img_inside{
-            width: 176px;
-            height: 174px;
-        }
         .img_table{
             width: 100%;
             height: 100%;
+        }
+        .img_table+p{
+            padding-top: 10px;
         }
     </style>
 </head>
@@ -73,19 +80,38 @@
                 <img class="icon" src="images/icon-2.png">
                 <p>视频资料</p>
             </div>
-            <table cellspacing="10px">
+            <table>  <!--cellspacing="10px"-->
                 <tr>
                     <td>
-                        <img class="img_inside" src="images/5-1-1.PNG">
-                        <p>视频资料</p>
+                        <img class="img_table" src="images/5-1-1.PNG">
+                        <p>腾讯新使命愿景：用户为本，科技向善</p>
                     </td>
-                    <td>视频资料</td>
-                    <td>视频资料</td>
-                    <td>视频资料</td>
+                    <td>
+                        <img class="img_table" src="images/5-1-2.PNG">
+                        <p>腾讯游戏：去发现，无限可能</p>
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-1-3.PNG">
+                        <p>微信小程序</p>
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-1-4.PNG">
+                        <p>微信支付</p>
+                    </td>
                 </tr>
                 <tr>
-                    <td>视频资料</td>
-                    <td>视频资料</td>
+                    <td>
+                        <img class="img_table" src="images/5-1-5.PNG">
+                        <p>企业微信</p>
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-1-6.PNG">
+                        <p>腾讯 AI LAB</p>
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-1-7.PNG">
+                        <p>腾讯青年营</p>
+                    </td>
                 </tr>
             </table>
         </li>
@@ -96,16 +122,32 @@
             </div>
             <table>
                 <tr>
-                    <td>企业图片</td>
-                    <td>企业图片</td>
-                    <td>企业图片</td>
-                    <td>企业图片</td>
+                    <td>
+                        <img class="img_table" src="images/5-2-1.PNG">
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-2-2.PNG">
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-2-3.PNG">
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-2-4.PNG">
+                    </td>
                 </tr>
                 <tr>
-                    <td>企业图片</td>
-                    <td>企业图片</td>
-                    <td>企业图片</td>
-                    <td>企业图片</td>
+                    <td>
+                        <img class="img_table" src="images/5-2-5.PNG">
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-2-6.PNG">
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-2-7.PNG">
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-2-8.PNG">
+                    </td>
                 </tr>
             </table>
         </li>
@@ -117,17 +159,35 @@
             <table>
                 <tr>
                     <td>
-                        <img class="img_table" src="images/5-1-1.PNG">
-                        <p>活动图集</p>
+                        <img class="img_table" src="images/5-3-1.PNG">
+                        <p>2019年99公益日</p>
                     </td>
-                    <td>活动图集</td>
-                    <td>活动图集</td>
-                    <td>活动图集</td>
+                    <td>
+                        <img class="img_table" src="images/5-3-2.PNG">
+                        <p>腾讯用户开放日(T-DAY)</p>
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-3-3.PNG">
+                        <p>粤港澳湾区青年营</p>
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-3-4.PNG">
+                        <p>2019腾讯影业年度发布会</p>
+                    </td>
                 </tr>
                 <tr>
-                    <td>活动图集</td>
-                    <td>活动图集</td>
-                    <td>活动图集</td>
+                    <td>
+                        <img class="img_table" src="images/5-3-5.PNG">
+                        <p>腾讯电竞领袖峰会</p>
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-3-6.PNG">
+                        <p>数字生态大会</p>
+                    </td>
+                    <td>
+                        <img class="img_table" src="images/5-3-7.PNG">
+                        <p>UP2019新文创生态大会</p>
+                    </td>
                 </tr>
             </table>
         </li>
