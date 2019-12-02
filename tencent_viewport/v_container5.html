@@ -5,28 +5,56 @@
     <title>媒体资料库</title>
     <style>
         *{margin: 0;padding: 0; box-sizing: border-box;}
-        li{
+        td{
+            border: #1e52d8 solid 1px;
+            width: 176px;
+            height: 174px;
+        }
+        #container5>ul>li{
             list-style-type: none;
             float: left;
             width: 176px;
             height: 174px;
-            line-height: 174px;
+            /*line-height: 174px;*/
+            border: #111111 solid 1px;
+            /*text-align: center;*/
+        }
+        #container5>ul>li>div{
+            width: 176px;
+            height: 174px;
+            text-align: center;
+            padding-top: 30px;
+        }
+        #container5>ul>li>table{
+            /*display: none;*/
+        }
+        #container5>ul>li>div:hover+table{
+            /*display: block;*/
+            z-index: 1;
         }
         #container5{
             width: 1200px;
             height: 738px;
             margin: 0 auto;
-            background-color: #ffff99;
+            /*background-color: #ffff99;*/
+            border: #111111 solid 1px;
         }
-/*        li img{
-            vertical-align: middle;
-            width: 60px;
-            height: 60px;
-        }*/
+        #container5>ul{
+            position: relative;
+        }
         .icon{
             vertical-align: middle;
             width: 60px;
             height: 60px;
+        }
+        #container5>ul>li>table{
+            width: 1200px;
+            height: 495px;
+            background-color: #ffff99;
+            /*list-style-type: none;*/
+            position: absolute;
+            top: 174px;
+            left: 0px;
         }
     </style>
 </head>
@@ -35,11 +63,47 @@
     <h3>媒体资料库</h3>
     <ul>
         <li>
-            <img class="icon" src="images/icon-2.png">
-            <div></div>
+            <div>
+                <img class="icon" src="images/icon-2.png">
+                <p>视频资料</p>
+            </div>
+            <table>
+                <tr>
+                    <td>图片容器</td>
+                    <td>图片容器</td>
+                    <td>图片容器</td>
+                    <td>图片容器</td>
+                </tr>
+                <tr>
+                    <td>图片容器</td>
+                    <td>图片容器</td>
+                </tr>
+            </table>
         </li>
-        <li><img class="icon" src="images/icon-3.png"></li>
-        <li><img class="icon" src="images/icon-4.png"></li>
+        <li>
+            <div>
+                <img class="icon" src="images/icon-3.png">
+                <p>企业图片</p>
+            </div>
+            <table>
+                <tr>
+                    <td>企业图片</td>
+                    <td>企业图片</td>
+                    <td>企业图片</td>
+                    <td>企业图片</td>
+                </tr>
+                <tr>
+                    <td>企业图片</td>
+                    <td>企业图片</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <div>
+                <img class="icon" src="images/icon-4.png">
+                <p>活动图集</p>
+            </div>
+        </li>
     </ul>
 </div>
 
