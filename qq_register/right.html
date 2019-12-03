@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>right</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        li{
+            list-style-type: none;
+        }
+        #right{
+            width: 860px;
+            height: 710px;
+        }
+        #right_top{
+            overflow: hidden;
+            border: #1e52d8 solid 1px;
+            height: 120px;
+        }
+        #right_top>ul{
+            float: right;
+            margin-top: 10px;
+        }
+        #right_top>ul>li{
+            list-style-type: none;
+            float: left;
+            /*border: #d12340 solid 1px;*/
+            /*height: 34px;*/
+            margin-right: 60px;
+            position: relative;
+            width: 99px;
+        }
+        #right_top>ul>li:first-of-type img{
+            position: absolute;
+            top: -4px;
+        }
+        #right_top>ul>li:first-of-type p{
+            display: inline-block;
+            /* border: #111111 solid 1px; */
+            width: 99px;
+            height: 30px;
+            bottom: 8px;
+            padding-top: 4px;
+            text-align: right;
+            padding-right: 10px;
+            border-radius: 5px;
+            color: white;
+            background-color: red;
+        }
+        #right_top>ul>li:nth-of-type(2){
+            position: relative;
+        }
+        #right_top>ul>li:nth-of-type(2)>img:nth-of-type(1){
+            position: absolute;
+            top: 8px;
+            right: 17px;
+        }
+        #right_top>ul>li:nth-of-type(2)>img:nth-of-type(2){
+            position: absolute;
+            top: 6px;
+            right: 17px;
+            display: none;
+        }
+        #right_top>ul>li:nth-of-type(2) ul li{
+            padding-top: 20px;
+        }
+        #right_top>ul>li:nth-of-type(2) ul{
+            display: none;
+        }
+        #right_top>ul>li:nth-of-type(2):hover ul{
+            display: block;
+        }
+        #right_top>ul>li:nth-of-type(2):hover img:first-of-type{
+            display: none;
+        }
+        #right_top>ul>li:nth-of-type(2):hover img:nth-of-type(2){
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="right">
+    <div id="right_top">
+        <ul>
+            <li>
+                <img src="picture/logo3.png">
+                <p>QQ靓号</p>
+            </li>
+            <li>简体中文
+                <img src="picture/down.png">
+                <img src="picture/up.png">
+                <ul>
+                    <li>繁體中文</li>
+                    <li>English</li>
+                </ul>
+            </li>
+            <li>意见反馈</li>
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>

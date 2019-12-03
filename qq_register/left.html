@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>左边keyframe</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        #left{
+            width: 480px;
+            height: 710px;
+            animation:mymove 20s infinite;
+            background-image: url("images/keyframe_1.PNG");
+            background-size: 100% 100%;
+        }
+        @-webkit-keyframes mymove /* Safari 和 Chrome */
+        {
+            0%   {background-image: url("images/keyframe_1.PNG");}
+            33%  {background-image: url("images/keyframe_2.PNG");}
+            66%  {background-image: url("images/keyframe_3.PNG");}
+            100%  {background-image: url("images/keyframe_1.PNG");}
+        }
+    </style>
+</head>
+<body>
+<div id="left">
+</div>
+</body>
+</html>
