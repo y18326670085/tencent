@@ -89,8 +89,14 @@
         #right_bottom>table{
             width: 480px;
             margin: 0 auto;
-            height: 590px;
+            height: 490px;
             border: #1e52d8 solid 1px;
+        }
+        #right_bottom>p{
+            width: 480px;
+            margin: 0 auto;
+            height: 100px;
+            text-align: center;
         }
         #right_bottom>table tr td{
             border: #111111 solid 1px;
@@ -104,13 +110,72 @@
         #right_bottom>table tr:nth-of-type(2) td p{
             display: inline-block;
             font-size: 28px;
-            margin-bottom: 64px;
+            margin-bottom: 40px;
         }
         #right_bottom>table tr:nth-of-type(2) td a{
             float: right;
             font-size: 24px;
             text-decoration: none;
             margin-top: 4px;
+        }
+        #right_bottom>table tr:nth-of-type(3) td input{
+            width: 100%;
+            height: 52px;
+            padding: 0 20px;
+            border-radius: 5px;
+            border: #777 solid 1px;
+        }
+        #right_bottom>table tr:nth-of-type(4) td input{
+            width: 100%;
+            height: 52px;
+            padding: 0 20px;
+            border-radius: 5px;
+            border: #c3c3c3 solid 1px;
+        }
+        #right_bottom>table tr:nth-of-type(5) td input:first-of-type{
+            width: 30%;
+            height: 52px;
+            padding: 0 20px;
+            border-radius: 5px;
+            border: #c3c3c3 solid 1px;
+            margin-right: 10px;
+        }
+        #right_bottom>table tr:nth-of-type(5) td input:nth-of-type(2){
+            width: 66.6%;
+            height: 52px;
+            padding: 0 20px;
+            border-radius: 5px;
+            border: #c3c3c3 solid 1px;
+        }
+        #right_bottom>table tr:nth-of-type(5) td span{
+            font-size: 14px;
+            color: #999;
+        }
+        #right_bottom>table tr:nth-of-type(6) td input{
+            width: 478px;
+            height: 60px;
+            margin: 40px 0 8px;
+            font-size: 24px;
+            border: 1px #3083ff solid;
+            border-radius: 4px;
+            background-color: #3487ff;
+            box-shadow: 0 5px 8px 0 rgba(24,95,255,.1);
+            color: #fff;
+            text-align: center;
+            font-weight: lighter;
+        }
+        #right_bottom>table tr:nth-of-type(6) td input:hover{
+            background-color: #1e52d8;
+        }
+        #right_bottom>table tr:nth-of-type(7) td span{
+            line-height: 30px;
+            font-size: 13px;
+            color: #aaa;
+        }
+        #right_bottom>table tr:nth-of-type(7) td p{
+            line-height: 18px;
+            font-size: 14px;
+            color: #359eff
         }
     </style>
 </head>
@@ -146,28 +211,33 @@
                     <a href="#">免费靓号</a>
                 </td>
             </tr>
-            <tr>
+            <tr><!--/nth-of-type(3)-->
                 <td>
                     <input placeholder="昵称"/>
                 </td>
             </tr>
-            <tr>
+            <tr><!--/nth-of-type(4)-->
                 <td>
                     <input placeholder="密码"/>
                 </td>
             </tr>
-            <tr>
+            <tr><!--/nth-of-type(5)-->
                 <td>
-                    <input placeholder="+86"/>
+                    <input list="source" placeholder="+86"/>
+                    <datalist id="source">
+                            <option value="html5">
+                            <option value="css3">
+                    </datalist>
                     <input placeholder="手机号码"/>
+                    <span>可通过手机号找回密码</span>
                 </td>
             </tr>
-            <tr>
+            <tr><!--/nth-of-type(6)-->
                 <td>
                     <input type="submit" value="立即注册"/>
                 </td>
             </tr>
-            <tr>
+            <tr><!--/nth-of-type(7)-->
                 <td>
                     <input type="checkbox" />
                     <span>我已阅读并同意相关服务条款和隐私政策</span>
@@ -181,6 +251,7 @@
                 </td>
             </tr>
         </table>
+        <p>Copyright © 1998-2019Tencent All Rights Reserved</p>
     </div>
 </div>
 </body>
