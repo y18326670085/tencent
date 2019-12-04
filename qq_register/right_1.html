@@ -92,8 +92,25 @@
             height: 590px;
             border: #1e52d8 solid 1px;
         }
-        #right_bottom>table td{
+        #right_bottom>table tr td{
             border: #111111 solid 1px;
+        }
+        #right_bottom>table tr:first-of-type td h3{
+            font-size: 44px;
+        }
+        #right_bottom>table tr:nth-of-type(2) td {
+            height: 33px;
+        }
+        #right_bottom>table tr:nth-of-type(2) td p{
+            display: inline-block;
+            font-size: 28px;
+            margin-bottom: 64px;
+        }
+        #right_bottom>table tr:nth-of-type(2) td a{
+            float: right;
+            font-size: 24px;
+            text-decoration: none;
+            margin-top: 4px;
         }
     </style>
 </head>
@@ -120,33 +137,33 @@
         <table>
             <tr>
                 <td>
-                    <h3 style="font-size: 44px">欢迎注册QQ</h3>
+                    <h3>欢迎注册QQ</h3>
                 </td>
             </tr>
             <tr>
-                <td style="height: 33px">
-                    <p style="display: inline-block">每一天，乐在沟通。</p>
-                    <a href="#" style="float: right">免费靓号</a>
+                <td>
+                    <p>每一天，乐在沟通。</p>
+                    <a href="#">免费靓号</a>
                 </td>
             </tr>
             <tr>
-                <td style="height: 60px">
+                <td>
                     <input placeholder="昵称"/>
                 </td>
             </tr>
             <tr>
-                <td style="height: 60px">
+                <td>
                     <input placeholder="密码"/>
                 </td>
             </tr>
             <tr>
-                <td style="height: 60px">
+                <td>
                     <input placeholder="+86"/>
                     <input placeholder="手机号码"/>
                 </td>
             </tr>
             <tr>
-                <td style="height: 60px">
+                <td>
                     <input type="submit" value="立即注册"/>
                 </td>
             </tr>
