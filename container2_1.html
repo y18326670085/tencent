@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li{
+            list-style-type: none;
+        }
+        a{
+            color: white;
+        }
+        *{margin: 0;padding: 0; box-sizing: border-box;}
+        #container2
+        {
+            width: 1240px;
+            margin: 0 auto;
+            height: 341px;
+            border: #111111 solid 1px;
+            /*弹性盒子模型 space-between*/
+            display: flex;
+            justify-content: space-between;
+        }
+        #container2>div{
+            width: 400px;
+            height: 250px;
+            position: relative;
+        }
+        #container2>div>p{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="container2">
+    <div>
+        <img src="picture/index_detail_1.png">
+        <p>公司简介</p>
+    </div>
+    <div>
+        <img src="picture/index_detail_2.png">
+        <p>企业文化</p>
+    </div>
+    <div>
+        <img src="picture/index_detail_3.png">
+        <p>办公地点</p>
+    </div>
+</div>
+
+</body>
+</html>
