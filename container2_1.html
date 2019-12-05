@@ -25,8 +25,36 @@
             width: 400px;
             height: 250px;
             position: relative;
+            overflow: hidden;
         }
-        #container2>div>p{
+        #container2>div a{
+            display: block;
+        }
+        #container2>div a img{
+            width: 400px;
+            height: 250px;
+        }
+        #container2 div a:hover img{
+            transform: scale(1.1);
+            transition: transform 0.3s ease-out;
+        }
+        #container2 div a p:first-of-type{
+            width: 400px;
+            height: 250px;
+            background-color: #1e52d8;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+            display: none;
+        }
+        #container2 div a:hover p:first-of-type{
+            display: block;
+        }
+        #container2 div a:hover p:nth-of-type(2){
+            border-bottom: white solid 3px;
+        }
+        #container2 div a p:nth-of-type(2){
             position: absolute;
             top: 0;
             left: 0;
@@ -36,18 +64,26 @@
 <body>
 <div id="container2">
     <div>
-        <img src="picture/index_detail_1.png">
-        <p>公司简介</p>
+        <a href="#">
+            <img src="picture/index_detail_1.png">
+            <p></p>
+            <p>公司简介</p>
+        </a>
     </div>
     <div>
-        <img src="picture/index_detail_2.png">
-        <p>企业文化</p>
+        <a href="#">
+            <img src="picture/index_detail_2.png">
+            <p></p>
+            <p>企业文化</p>
+        </a>
     </div>
     <div>
-        <img src="picture/index_detail_3.png">
-        <p>办公地点</p>
+        <a href="#">
+            <img src="picture/index_detail_3.png">
+            <p></p>
+            <p>办公地点</p>
+        </a>
     </div>
 </div>
-
 </body>
 </html>
