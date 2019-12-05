@@ -10,95 +10,82 @@
         a{
             color: white;
         }
-        *{margin: 0;padding: 0;}
+        *{margin: 0;padding: 0; box-sizing: border-box;}
         #container2
         {
-            width: 100%;
+            width: 1240px;
+            margin: 0 auto;
+            height: 341px;
+            border: #111111 solid 1px;
+            /*弹性盒子模型 space-between*/
+            display: flex;
+            justify-content: space-between;
+        }
+        #container2>div{
+            width: 400px;
             height: 250px;
-            /*margin-bottom: 84px;*/
-            background-color: peachpuff;
-            padding-left: 45px;
-        }
-        #container2>ul{
-            width: 95%;
-            /*border: #111111 solid 1px;*/
-            overflow: hidden;
-            height: 100%;
-        }
-        #container2>ul>li{
-            float: left;
-            width: 32%;
-            /*border: #111111 solid 1px;*/
-            height: 99%;
             position: relative;
-            /*padding: 10px;*/
-            margin-right: 15px;
             overflow: hidden;
         }
-        #container2>ul>li:hover a p{
-            border-bottom: white solid 2px;
-        }
-        #container2>ul>li a{
+        #container2>div a{
             display: block;
         }
-        #container2>ul>li a p{
+        #container2>div a img{
+            width: 400px;
+            height: 250px;
+        }
+        #container2 div a:hover img{
+            transform: scale(1.1);
+            transition: transform 0.3s ease-out;
+        }
+        #container2 div a p:first-of-type{
+            width: 400px;
+            height: 250px;
+            background-color: #1e52d8;
             position: absolute;
-            z-index: 2;
-            top: 40%;
-            left: 40%;
-        }
-        #container2>ul>li a img{
-            width: 100%;
-            height: 100%;
-            /*vertical-align: middle;*/
-        }
-        #container2>ul>li:hover a img{
-            -webkit-transform: scale(1.02,1);
-            z-index: -1;
-        }
-        #container2>ul>li>a:after{
-            content: "";
-            display: block;
-/*            width: 100%;
-            height: 100%;*/
-            width: 410px;
-            height: 256px;
-            background-color: blue;
-            opacity: 0.1;
             top: 0;
             left: 0;
-            /*z-index: 1;*/
-            position: absolute;
+            opacity: 0.5;
             display: none;
         }
-        #container2>ul>li:hover>a:after{
+        #container2 div a:hover p:first-of-type{
             display: block;
+        }
+        #container2 div a p:nth-of-type(2){
+            position: absolute;
+            top: 90px;
+            left: 140px;
+            font-size: 25px;
+        }
+        #container2 div a:hover p:nth-of-type(2){
+            padding-bottom: 5px;
+            border-bottom: white solid 3px;
         }
     </style>
 </head>
 <body>
 <div id="container2">
-    <ul>
-        <li>
-            <a href="#">
-                <p>公司简介</p>
-                <img src="picture/index_detail_1.png">
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <p>企业文化</p>
-                <img src="picture/index_detail_2.png">
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <p>办公地点</p>
-                <img src="picture/index_detail_3.png">
-            </a>
-        </li>
-    </ul>
+    <div>
+        <a href="#">
+            <img src="picture/index_detail_1.png">
+            <p></p>
+            <p>公司简介</p>
+        </a>
+    </div>
+    <div>
+        <a href="#">
+            <img src="picture/index_detail_2.png">
+            <p></p>
+            <p>企业文化</p>
+        </a>
+    </div>
+    <div>
+        <a href="#">
+            <img src="picture/index_detail_3.png">
+            <p></p>
+            <p>办公地点</p>
+        </a>
+    </div>
 </div>
-
 </body>
 </html>
